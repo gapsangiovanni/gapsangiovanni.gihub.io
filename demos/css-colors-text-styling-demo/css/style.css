@@ -1,0 +1,44 @@
+body {
+    background-color: lavender;
+}
+
+#first-paragraph {
+    color: white;
+    background-color: purple;
+    font-style: italic;
+    text-align: right;
+}
+#second-paragraph {
+    color: #687357; 
+    background-color: #F283D8;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+#third-paragraph {
+    font-weight: bold;
+    background-color: #F2C483;
+}
+
+#span1 {
+    color: blue;
+    font-weight: bolder;
+    font-size: 27px;
+}
+
+#span2 {
+    font-style:italic;
+    text-decoration: line-through;
+}
+
+#span3 {
+    text-align: right;
+    color:antiquewhite;
+    background-color: #83A2F2;
+}
+
+#span4 {
+    font-style:italic;
+    font-weight: bold;
+    background-color: #F2C483;
+}

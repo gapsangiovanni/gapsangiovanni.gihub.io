@@ -8,7 +8,7 @@
 #p1-c1 {
     background-color: #87ADE6;
     padding: 24px;
-    text-align: right;
+    text-align: center;
     font-family: cursive;
     color: white;
 }
@@ -16,7 +16,7 @@
 #p1-c2 {
     background-color: #9182C5;
     padding: 24px;
-    text-align: right;
+    text-align: center;
     font-family: serif;
     color: white;
 }
@@ -24,7 +24,7 @@
 #p1-c3 {
     background-color: #9B5392;
     padding: 24px;
-    text-align: right;
+    text-align: center;
     font-family: monospace;
     color: white;
 }
@@ -70,7 +70,7 @@
 #p3-c1 {
     background-color: #E6F4F1;
     padding: 24px;
-    text-align: right;
+    text-align: left;
     font-family: serif;
     color: grey;
 }
@@ -78,7 +78,7 @@
 #p3-c2 {
     background-color: #002D5A;
     padding: 24px;
-    text-align: right;
+    text-align: left;
     font-family: sans-serif;
     color: white;
 }
@@ -86,7 +86,7 @@
 #p3-c3 {
     background-color: #835600;
     padding: 24px;
-    text-align: right;
+    text-align: left;
     font-family: fantasy;
     color: white;
 }

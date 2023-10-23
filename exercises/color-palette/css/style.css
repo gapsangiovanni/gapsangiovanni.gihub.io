@@ -17,7 +17,7 @@
     background-color: #9182C5;
     padding: 24px;
     text-align: right;
-    font-family: cursive;
+    font-family: serif;
     color: white;
 }
 
@@ -25,7 +25,7 @@
     background-color: #9B5392;
     padding: 24px;
     text-align: right;
-    font-family: cursive;
+    font-family: monospace;
     color: white;
 }
 
@@ -40,7 +40,7 @@
     background-color: #683E00;
     padding: 24px;
     text-align: right;
-    font-family: cursive;
+    font-family: fantasy;
     color: white;
 }
 
@@ -48,7 +48,7 @@
     background-color: #FFEDCB;
     padding: 24px;
     text-align: right;
-    font-family: cursive;
+    font-family: sans-serif;
     color: grey;
 }
 
@@ -71,7 +71,7 @@
     background-color: #E6F4F1;
     padding: 24px;
     text-align: right;
-    font-family: cursive;
+    font-family: serif;
     color: grey;
 }
 
@@ -79,7 +79,7 @@
     background-color: #002D5A;
     padding: 24px;
     text-align: right;
-    font-family: cursive;
+    font-family: sans-serif;
     color: white;
 }
 
@@ -87,6 +87,6 @@
     background-color: #835600;
     padding: 24px;
     text-align: right;
-    font-family: cursive;
+    font-family: fantasy;
     color: white;
 }

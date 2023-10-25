@@ -1,0 +1,45 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+.post-it {
+    background-color: #7EEBCF;
+    display: inline-block;
+    width: 25%;
+    height: 200px;
+    margin: 24px;
+    padding: 24px;
+    font-family: cursive;
+}
+
+.lemon {
+    background-color: #C8EB86;
+    font-family: 'Franklin Gothic Medium';
+    text-align: right;
+}
+
+.blue {
+    background-color: #597EEB;
+    font-family: Arial;
+}
+
+.salmon {
+    background-color: #EB9C83;
+    font-family: 'Lucida Sans';
+}
+
+.pink {
+    background-color: #D48DEB;
+    font-family: Georgia;
+    text-align: center;
+}
+
+.purple {
+    background-color: #927BE5;
+    font-weight: bolder;
+    text-align: center;
+}

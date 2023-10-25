@@ -1,0 +1,47 @@
+div {
+    /* 1 Value margin is applying the margin to all 4 sides
+    of the elements */
+    margin: 50px;
+}
+
+.div1 {
+    border: 5px solid blue;
+    border-bottom-color: purple;
+    border-left-color: red;
+    border-top-color: white;
+    /* 2 values for shorthand margin will apply the 1st value
+    to the top and bottom of an element, apply the second value
+    to the left and right side of an element */
+    margin: 40px 100px;
+}
+
+.div2 {
+    border: 10px dotted pink;
+    border-bottom: 10px solid pink;
+    /* 3 values for shorthand margin will apply the 1st value to
+    the top of an element, 2nd to the left and right of an element
+    and 3rd to the bottomm of an element */
+    margin: 10px 50px 25px;
+}
+
+.div3 {
+    border: 5px dashed blue;
+    /* 4 values for shorthand margin will apply the 1st value to
+    the top of an element, 2nd to the right of an element,
+    3rd to the bottomm of an element and 4th value applies to
+    the left of an element */
+    margin: 25px 0px 25px 0px;
+    /* Padding is to add spacing between the border and content */
+    padding: 24px 36px;
+    background-color: pink;
+}
+
+.div4 {
+    border: 20px dotted blue;
+    margin: 60px;
+    padding: 48px 60px;
+    background-color: cornflowerblue;
+    /* Border radius rounds the borders and there's no need
+    for the border to be there, could only be the color */
+    border-radius: 50px;
+}

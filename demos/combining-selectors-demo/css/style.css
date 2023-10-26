@@ -33,6 +33,10 @@ ul p a {
     color: purple;
 }
 
+ul li div a {
+    color: lightblue;
+}
+
 ul div a {
     color: orange;
 }

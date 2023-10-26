@@ -27,3 +27,27 @@
     background-color: magenta;
     border-color: magenta;
 }
+
+.green {
+    background-color: green;
+    border-color: green;
+}
+
+.red {
+    background-color: red;
+    border-color: red;
+}
+
+.orange {
+    background-color: orange;
+    border-color: orange;
+}
+
+.aqua {
+    background-color: aqua;
+    border-color: aqua;
+}
+
+.empty {
+    border-color: transparent;
+}

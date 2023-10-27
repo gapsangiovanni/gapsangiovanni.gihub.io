@@ -23,7 +23,7 @@ img {
     box-shadow: inset -2px 2px 3px #3a3632;
 }
 
-.no-frame div {
+.frame-2 div {
     rotate: 10deg;
     box-shadow: 4px 4px 5px #3a3632;
     margin: 70px 12px 0px;

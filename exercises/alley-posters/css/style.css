@@ -7,7 +7,7 @@
     Good luck, and have fun!
 */
 img {
-    width: 100%;
+    width: 80px;
 }
 
 .frame-1 {
@@ -23,21 +23,14 @@ img {
     box-shadow: inset -2px 2px 3px #3a3632;
 }
 
-.frame-2 {
-    border: 10px solid #665735;
-    margin: 70px 12px 0px;
-    box-shadow: 4px 4px 5px #3a3632;
-    border-style: ridge;
-}
-
 .frame-2 div {
-    padding: 12px;
-    background-color: #FFF8E8;
-    box-shadow: inset -2px 2px 3px #3a3632;
+    rotate: 10deg;
+    box-shadow: 4px 4px 5px #3a3632;
+    margin: 70px 12px 0px;
 }
 
 .frame-3 {
-    border: 10px solid #665735;
+    border: 10px solid #BAB8B3;
     margin: 70px 12px 0px;
     box-shadow: 4px 4px 5px #3a3632;
     border-style: ridge;
@@ -45,6 +38,7 @@ img {
 
 .frame-3 div {
     padding: 12px;
-    background-color: #FFF8E8;
+    background-color: #DBE7FF;
     box-shadow: inset -2px 2px 3px #3a3632;
+    color: #244387;
 }

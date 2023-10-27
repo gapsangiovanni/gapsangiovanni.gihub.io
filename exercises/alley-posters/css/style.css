@@ -22,3 +22,29 @@ img {
     background-color: #FFF8E8;
     box-shadow: inset -2px 2px 3px #3a3632;
 }
+
+.frame-2 {
+    border: 10px solid #665735;
+    margin: 70px 12px 0px;
+    box-shadow: 4px 4px 5px #3a3632;
+    border-style: ridge;
+}
+
+.frame-2 div {
+    padding: 12px;
+    background-color: #FFF8E8;
+    box-shadow: inset -2px 2px 3px #3a3632;
+}
+
+.frame-3 {
+    border: 10px solid #665735;
+    margin: 70px 12px 0px;
+    box-shadow: 4px 4px 5px #3a3632;
+    border-style: ridge;
+}
+
+.frame-3 div {
+    padding: 12px;
+    background-color: #FFF8E8;
+    box-shadow: inset -2px 2px 3px #3a3632;
+}

@@ -1,0 +1,23 @@
+body {
+    background-color: lavender;
+}
+
+img {
+    width: 180px;
+    border-radius: 30px 8px;
+}
+
+#first-part {
+    display: flex;
+    align-items: center;
+    
+}
+
+.paragraph1 {
+    width: 200%;
+    margin: 50px;
+    padding: 36px 36px 60px 60px;
+    gap: 5rem;
+    text-align: center;
+    box-sizing: content-box;
+}

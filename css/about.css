@@ -2,22 +2,39 @@ body {
     background-color: lavender;
 }
 
-img {
-    width: 180px;
+div.image1 img {
+    width: 300px;
     border-radius: 30px 8px;
 }
 
 #first-part {
     display: flex;
     align-items: center;
-    
+    width: 850px;
 }
 
 .paragraph1 {
     width: 200%;
     margin: 50px;
-    padding: 36px 36px 60px 60px;
     gap: 5rem;
     text-align: center;
-    box-sizing: content-box;
+}
+
+span.image2 img {
+    width: 150px;
+    border-radius: 40px 40px;
+    margin-right: 50%;
+}
+
+#second-part {
+    display: flex;
+    align-items: right;
+    margin-right: 30%;
+    width: 850px;
+}
+
+.paragraph2 {
+    width: 20%;
+    margin: 5px;
+    text-align: right;
 }

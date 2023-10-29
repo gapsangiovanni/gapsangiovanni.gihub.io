@@ -8,29 +8,76 @@
 */
 div#license {
     border: 3px solid black;
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
     border-radius: 20px;
-    padding: 25px;
+    padding: 20px;
+    box-shadow: 4px 4px 5px #3a3632;
+    display: inline-block;
 }
 
 div#left-side {
-    display: inline-block;
     text-align: left;
 }
 
-div#right-side {
-    display: inline-block;
-    align-items: right;
+div#id-and-expiration {
+    display: flex;
+    margin: 8px;
 }
 
+div#id-and-expiration div {
+    color: navy;
+    margin-right: 15px;
+}
+
+div#id-and-expiration span {
+    color: red;
+    font-weight: bold;
+}
+
+div#address {
+    font-weight: bold;
+    margin: 5px;
+}
+
+div#personal-info {
+    display: flex;
+}
+
+div#small-pic {
+    opacity: 50%;
+}
+div#data-left, div#data-right {
+    display: inline-block;
+    margin: 10px;
+}
+
+div#data-left div, div#data-right div {
+    color: navy;
+}
+
+div#data-left span, div#data-right span {
+    color: red;
+}
+
+div#signature {
+    text-align: center;
+}
+
+div#right-side {
+    align-items: right;
+    margin-left: 540px;
+}
 
 h1 {
     color: navy;
+    margin: none;
 }
 
 h4 {
     background: navy;
     color: white;
     text-align: center;
+    padding: 5px;
+    display: inline-block;
 }

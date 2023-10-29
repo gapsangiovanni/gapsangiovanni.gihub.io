@@ -29,12 +29,20 @@ span.image2 img {
 #second-part {
     display: flex;
     align-items: right;
-    margin-right: 30%;
-    width: 850px;
+    width: 80%;
 }
 
 .paragraph2 {
-    width: 20%;
-    margin: 5px;
+    width: 25%;
     text-align: right;
+}
+
+#part3 {
+    width: 50%;
+    margin: 5px;
+    text-align: center;
+}
+
+.paragraph2 #part3 {
+    display: inline;
 }

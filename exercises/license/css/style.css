@@ -10,8 +10,20 @@ div#license {
     border: 3px solid black;
     width: 40%;
     height: 40%;
-    border-radius: 15px;
+    border-radius: 20px;
+    padding: 25px;
 }
+
+div#left-side {
+    display: inline-block;
+    text-align: left;
+}
+
+div#right-side {
+    display: inline-block;
+    align-items: right;
+}
+
 
 h1 {
     color: navy;
@@ -22,8 +34,3 @@ h4 {
     color: white;
     text-align: center;
 }
-
-.id-and-expiration {
-    display: inline;
-}
-

@@ -18,6 +18,11 @@ div#license {
 
 div#left-side {
     text-align: left;
+    display: inline-block;
+}
+
+#right-side {
+    display: inline-block;
 }
 
 div#id-and-expiration {
@@ -66,7 +71,6 @@ div#signature {
 
 div#right-side {
     align-items: right;
-    margin-left: 540px;
 }
 
 h1 {
@@ -79,5 +83,8 @@ h4 {
     color: white;
     text-align: center;
     padding: 5px;
+}
+
+div#donor, div#real-id {
     display: inline-block;
 }

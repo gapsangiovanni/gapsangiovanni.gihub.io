@@ -54,7 +54,7 @@
     opacity: 50%;
 }
 
-#data-left, div#data-right {
+#data-left, #data-right {
     display: inline-block;
     margin: 10px;
 }
@@ -69,6 +69,7 @@
 
 #signature {
     text-align: center;
+    color: black;
 }
 
 #right-side {
@@ -78,6 +79,7 @@
 #content {
     color: navy;
     margin-bottom: 0%;
+    display: block;
 }
 
 h4 {

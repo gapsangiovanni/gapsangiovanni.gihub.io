@@ -6,17 +6,18 @@
 
     Good luck, and have fun!
 */
-div#license {
+#license {
     border: 3px solid black;
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
     border-radius: 20px;
     padding: 20px;
+    padding-top: 0%;
     box-shadow: 4px 4px 5px #3a3632;
     display: inline-block;
 }
 
-div#left-side {
+#left-side {
     text-align: left;
     display: inline-block;
 }
@@ -25,57 +26,58 @@ div#left-side {
     display: inline-block;
 }
 
-div#id-and-expiration {
+#id-and-expiration {
     display: flex;
-    margin: 8px;
+    margin: 1%
 }
 
-div#id-and-expiration div {
+#id-and-expiration div {
     color: navy;
     margin-right: 15px;
 }
 
-div#id-and-expiration span {
+#id-and-expiration span {
     color: red;
     font-weight: bold;
 }
 
-div#address {
+#address {
     font-weight: bold;
     margin: 5px;
 }
 
-div#personal-info {
+#personal-info {
     display: flex;
 }
 
-div#small-pic {
+#small-pic {
     opacity: 50%;
 }
-div#data-left, div#data-right {
+
+#data-left, div#data-right {
     display: inline-block;
     margin: 10px;
 }
 
-div#data-left div, div#data-right div {
+#data-left div, #data-right div {
     color: navy;
 }
 
-div#data-left span, div#data-right span {
+#data-left span, #data-right span {
     color: red;
 }
 
-div#signature {
+#signature {
     text-align: center;
 }
 
-div#right-side {
+#right-side {
     align-items: right;
 }
 
-h1 {
+#content {
     color: navy;
-    margin: none;
+    margin-bottom: 0%;
 }
 
 h4 {
@@ -83,8 +85,9 @@ h4 {
     color: white;
     text-align: center;
     padding: 5px;
+    margin: 0% 0% 0% 0%;
 }
 
-div#donor, div#real-id {
+#donor, #real-id {
     display: inline-block;
 }

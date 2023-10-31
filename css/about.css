@@ -1,5 +1,12 @@
 body {
-    background-color: lavender;
+    background: linear-gradient(
+        to bottom right,
+        #cdcdcd,
+        #9c8affbd,
+        #c289ffaf,
+        #9c8affbd,
+        #cdcdcd
+    );
 }
 
 div.image1 img {
@@ -8,41 +15,35 @@ div.image1 img {
 }
 
 #first-part {
+    width: 1200px;
     display: flex;
     align-items: center;
-    width: 850px;
 }
 
 .paragraph1 {
-    width: 200%;
     margin: 50px;
-    gap: 5rem;
     text-align: center;
 }
 
 span.image2 img {
     width: 150px;
     border-radius: 40px 40px;
-    margin-right: 50%;
+    margin-left: 20%;
 }
 
 #second-part {
+    width: 900px;
     display: flex;
     align-items: right;
-    width: 80%;
 }
 
 .paragraph2 {
-    width: 25%;
-    text-align: right;
-}
-
-#part3 {
-    width: 50%;
-    margin: 5px;
+    width: 30%;
     text-align: center;
 }
 
-.paragraph2 #part3 {
-    display: inline;
+#part3 {
+    width: 80%;
+    margin: 5px;
+    text-align: center;
 }

@@ -43,24 +43,15 @@ div.image1 img {
     border-radius: 30px 8px;
 }
 
-#first-part {
+#first-part,
+.paragraph1,
+.paragraph2,
+#part3 {
     align-items: center;
-}
-
-.paragraph1 {
-    text-align: center;
 }
 
 span.image2 img {
     width: 150px;
     border-radius: 40px 40px;
     margin-left: 20%;
-}
-
-.paragraph2 {
-    text-align: center;
-}
-
-#part3 {
-    text-align: center;
 }

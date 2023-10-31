@@ -9,19 +9,45 @@ body {
     );
 }
 
+#content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "image1 text1 ."
+        ". text2 image2"
+        ". text3 .";
+}
+
+.image1 {
+    grid-area: image1;
+}
+
+.paragraph1 {
+    grid-area: text1;
+}
+
+.paragraph2 {
+    grid-area: text2;
+}
+
+.image2 {
+    grid-area: image2;
+}
+
+#part3 {
+    grid-area: text3;
+}
+
 div.image1 img {
     width: 300px;
     border-radius: 30px 8px;
 }
 
 #first-part {
-    width: 1200px;
-    display: flex;
     align-items: center;
 }
 
 .paragraph1 {
-    margin: 50px;
     text-align: center;
 }
 
@@ -31,19 +57,10 @@ span.image2 img {
     margin-left: 20%;
 }
 
-#second-part {
-    width: 900px;
-    display: flex;
-    align-items: right;
-}
-
 .paragraph2 {
-    width: 30%;
     text-align: center;
 }
 
 #part3 {
-    width: 80%;
-    margin: 5px;
     text-align: center;
 }

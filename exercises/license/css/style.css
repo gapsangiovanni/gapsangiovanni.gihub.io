@@ -6,8 +6,86 @@
 
     Good luck, and have fun!
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 #license {
-    background-color: orange;
+    background: linear-gradient(
+        to bottom right,
+        #f3cc73,
+        #cb853f
+    );
     border: 2px solid black;
-    width: 700px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#left-side,
+#right-side {
+    display: inline-block;
+}
+#id-and-expiration div {
+    display: inline-block;
+}
+
+#small-pic,
+#data-fields {
+    display: inline-block;
+}
+
+#data-left,
+#data-right {
+    display: inline-block;
+}
+
+#signature {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+}
+
+#donor,
+#real-id {
+    display: inline-block;
+}
+
+#small-pic img {
+    width: 80px;
+    opacity: 40%;
+}
+
+#right-side {
+    text-align: center;
+}
+
+#right-side img {
+    width: 170px;
+}
+
+span, #donor {
+    font-weight: bold;
+    color: red;
+}
+
+h1,
+#id-and-expiration div,
+#data-left div,
+#data-right div {
+    color: navy;
+}
+
+h1 {
+    margin: 0px;
+}
+
+h4 {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    margin: 3px;
+    padding: 5px;
+}
+
+#address {
+    font-weight: bold;
 }

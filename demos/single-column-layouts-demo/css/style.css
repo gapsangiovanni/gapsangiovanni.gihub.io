@@ -6,7 +6,30 @@ body {
     font-family: sans-serif;
 }
 
-.single-column {
-    background-color: lightcyan;
+.single-column1 {
+    background-color: #e0ffff;
     width: 50%;
+    min-width: 500px;
+}
+
+.single-column2 {
+    background-color: #eeffe0;
+    width: 50%;
+    min-width: 500px;
+    margin-left: auto;
+}
+
+.single-column3 {
+    background-color: #e1e0ff;
+    width: 50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.single-column4 {
+    background-color: #ffe0ee;
+    width: 50%;
+    min-width: 500px;
+    margin: 0px auto;
 }

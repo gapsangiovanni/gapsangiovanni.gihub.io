@@ -33,3 +33,19 @@ body {
     min-width: 500px;
     margin: 0px auto;
 }
+
+.single-column5 {
+    width: 50%;
+    min-width: 500px;
+}
+
+.light-container {
+    background-color: #fffde0;
+    padding: 48px 0px
+}
+
+.dark-container {
+    background-color: #b4af6c;
+    color: white;
+    padding: 48px 0px
+}

@@ -45,7 +45,9 @@
     display: flex;
 }
 
-.box {
+#c8-box1,
+#c8-box2,
+#c8-box3 {
     flex: 1;
 }
 
@@ -57,7 +59,7 @@
 #c9-box2 {
     flex: 7;
 }
-
+s
 /* Drill 10 - Write your code solution below */
 #container-10 {
 display: flex;

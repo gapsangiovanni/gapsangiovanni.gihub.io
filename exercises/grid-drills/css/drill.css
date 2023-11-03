@@ -41,19 +41,57 @@
 }
 
 #d4-cell1 {
-    grid-area: one;
-}
-
-#d4-cell2 {
-    grid-area: two;
-}
-
-#d4-cell3 {
     grid-area: three;
 }
 
-/* Drill 5 - Write your code solution below */
+#d4-cell2 {
+    grid-area: one;
+}
 
+#d4-cell3 {
+    grid-area: two;
+}
+
+/* Drill 5 - Write your code solution below */
+#container-d5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "one one one"
+        "three two two"
+    ;
+}
+
+#d5-cell1 {
+    grid-area: one;
+}
+
+#d5-cell2 {
+    grid-area: two;
+}
+
+#d5-cell3 {
+    grid-area: three;
+}
 
 /* Drill 6 - Write your code solution below */
+#container-d6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "one two"
+        "three three"
+    ;
+}
 
+#d6-cell1 {
+    grid-area: one;
+}
+
+#d6-cell2 {
+    grid-area: two;
+}
+
+#d6-cell3 {
+    grid-area: three;
+}

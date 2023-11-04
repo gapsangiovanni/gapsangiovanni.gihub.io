@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    color: #C7C7C7;
 }
 
 #grid-layout {
@@ -13,4 +14,50 @@ body {
     grid-template-areas: 
         ". content sidebar ."
     ;
+}
+
+#sidebar {
+    grid-area: sidebar;
+    padding: 18px;
+}
+#sidebar h2 {
+    background-color: #21AAC2;
+    margin: 0px;
+    padding: 12px;
+    color: white;
+    font-size: 18px;
+}
+#sidebar ul {
+    background-color: #404040;
+    border: 4px solid #21AAC2;
+    margin: 0px 0px 36px;
+    list-style-type: none;
+    padding: 0px 12px;
+}
+#sidebar a {
+    color: white;
+    text-decoration: none;
+}
+#sidebar li {
+    border-bottom: 1px solid white;
+    padding: 8px 0px;
+}
+
+#sidebar li:last-child {
+    border-bottom: 0px;
+}
+
+#content {
+    background-color: #404040;
+    grid-area: content;
+}
+
+#ns-lights img {
+    width: 300px
+}
+
+#ns-plate img {
+    width: 200px;
+    float: left;
+    margin: 3% 3% 1% 0%;
 }

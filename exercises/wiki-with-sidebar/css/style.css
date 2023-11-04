@@ -2,15 +2,61 @@
     box-sizing: border-box;
 }
 body {
-    margin: 0px;
+    margin: 50px;
     font-family: sans-serif;
+    color: #354069;
+}
+
+#sidebar {
+    padding: 15px;
+    margin-right: 100px;
+}
+#sticky-sidebar {
+    position: sticky;
+    top: 10px;
+}
+#sidebar h2 {
+    background-color: #354069;
+    margin: 0px;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+}
+#sidebar ul {
+    border: 4px solid #354069;
+    margin: 0px 0px 36px;
+    padding: 0px;
+    list-style-type: none;
+}
+#sidebar li:hover {
+    background-color: #354069;
+}
+#sidebar li {
+    border-bottom: 3px solid #354069;
+    padding: 8px;
+}
+#sidebar li:last-child {
+    border-bottom: 0px;
+}
+#sidebar a {
+    color: #8aa0ef;
+    text-decoration: none;
+    margin: 0px 50px 0px 0px;
+    padding: 30px 30px 30px 0px;
 }
 
 #two-columns {
     display: flex;
+    width: 90%;
+    margin-left: 20px;
 }
 
 #taylor-image img {
     width: 200px;
 }
 
+#life-and-career,
+#artistry {
+    font-size: larger;
+    margin-bottom: 0px;
+}

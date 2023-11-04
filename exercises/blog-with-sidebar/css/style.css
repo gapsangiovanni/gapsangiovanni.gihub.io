@@ -25,6 +25,10 @@ body {
     grid-area: sidebar;
     padding: 18px;
 }
+#sticky-sidebar {
+    position: sticky;
+    top: 4px;
+}
 #sidebar h2 {
     background-color: #21AAC2;
     margin: 0px;
@@ -37,8 +41,12 @@ body {
     border: 4px solid #21AAC2;
     margin: 0px 0px 36px;
     list-style-type: none;
-    padding: 0px 12px;
+    padding: 0px;
 }
+#sidebar li:hover {
+    background-color: #21AAC2;
+}
+
 #sidebar a {
     color: white;
     text-decoration: none;

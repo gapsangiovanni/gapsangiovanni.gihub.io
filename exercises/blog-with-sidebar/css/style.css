@@ -6,6 +6,11 @@ body {
     margin: 0px;
     font-family: sans-serif;
     color: #C7C7C7;
+    background: linear-gradient(
+        to bottom right,
+        #21AAC2,
+        #000000
+    );
 }
 
 #grid-layout {
@@ -50,14 +55,21 @@ body {
 #content {
     background-color: #404040;
     grid-area: content;
+    border: 3px solid #21AAC2;
+    padding: 10px;
 }
 
 #ns-lights img {
-    width: 300px
+    width: 100%
 }
 
 #ns-plate img {
     width: 200px;
     float: left;
     margin: 3% 3% 1% 0%;
+}
+
+#ns-ceiling img {
+    width: 200px;
+    margin-left: 110px;
 }

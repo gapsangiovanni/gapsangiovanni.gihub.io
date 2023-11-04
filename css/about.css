@@ -7,6 +7,9 @@ body {
         #9c8affbd,
         #cdcdcd
     );
+    margin: 0px;
+    min-height: 100vh;
+    padding: 24px;
 }
 
 #content {

@@ -60,3 +60,8 @@ body {
     font-size: larger;
     margin-bottom: 0px;
 }
+#italicized {
+    font-style: italic;
+    margin-left: 50px;
+    font-size: smaller;
+}

@@ -59,6 +59,16 @@ body {
     padding: 10px;
 }
 
+h1,
+#p2 {
+    color: #D4357C;
+}
+
+#p1 {
+    font-weight: bold;
+    font-size: large;
+}
+
 #ns-lights img {
     width: 100%
 }

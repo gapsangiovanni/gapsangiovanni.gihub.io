@@ -4,6 +4,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #9E88B8;
 }
 
 #grid-layout {
@@ -23,11 +24,11 @@ body {
     text-decoration: none;
 }
 #header #me {
-    color: #111;
+    color: #351C52;
 }
 #header #tube {
-    color: white;
-    background-color: orange;
+    color: #9E88B8;
+    background-color: #351C52;
     padding: 4px;
     border-radius: 12px;
 }
@@ -40,17 +41,17 @@ body {
     list-style-type: none;
     padding: 12px 0px;
     margin: 0px;
-    border-bottom: 1px solid #aaa;
+    border-bottom: 1px solid #351C52;
 }
 #sidebar ul a {
     text-decoration: none;
-    color: #111;
+    color: #351C52;
     display: block;
     padding: 12px;
 }
 
 #sidebar ul a:hover {
-    background-color: orange;
+    background-color: #D9C9EB;
     border-radius: 12px;
 }
 
@@ -66,18 +67,31 @@ body {
     margin-bottom: 24px;
 }
 
-.metube-item .thumbnail-placeholder {
-    aspect-ratio: 16 / 9;
-    background: radial-gradient(at top left, crimson, orange);
-    border-radius: 8px;
+.thumbnail-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.thumbnail-placeholder img {
+    width: 70%;
+    border-radius: 40px;
+}
+
+.metube-item .thumbnail-placeholder {
+    aspect-ratio: 16 / 9;
+    background: radial-gradient(at top left, #351C52, #D9C9EB);
+    border-radius: 70px 0px;
+}
+
+
 .metube-item h4 {
-    margin: 8px;
+    margin: 13px 0px;
+    font-size: large;
 }
 .metube-item h4 a {
     text-decoration: none;
-    color: #111;
+    color: #351C52;
     display: block;
 }
 .metube-item .video-details {

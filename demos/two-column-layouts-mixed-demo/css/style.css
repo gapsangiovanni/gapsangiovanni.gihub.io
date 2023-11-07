@@ -32,7 +32,6 @@ body {
     border-radius: 12px;
 }
 
-
 #sidebar {
     grid-area: sidebar;
     padding: 0px 24px;
@@ -50,7 +49,41 @@ body {
     padding: 12px;
 }
 
+#sidebar ul a:hover {
+    background-color: orange;
+    border-radius: 12px;
+}
+
 #main {
-    background: lavender;
     grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.metube-item {
+    flex: 250px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+}
+
+.metube-item .thumbnail-placeholder {
+    aspect-ratio: 16 / 9;
+    background: radial-gradient(at top left, crimson, orange);
+    border-radius: 8px;
+}
+
+.metube-item h4 {
+    margin: 8px;
+}
+.metube-item h4 a {
+    text-decoration: none;
+    color: #111;
+    display: block;
+}
+.metube-item .video-details {
+    margin: 8px;
+    font-size: 14px;
+}
+.metube-item .video-channel {
+    margin-bottom: 4px;
 }

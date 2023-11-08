@@ -36,6 +36,13 @@ body {
     width: 100%;
 }
 
+.card-style-1 h2 {
+    text-align: center;
+}
+.card-style-1 p {
+    padding: 0px 20px 0px 20px;
+}
+
 .card-style-1 a {
     display: block;
     background-color: green;
@@ -50,5 +57,5 @@ body {
     ;
 }
 .card-style-1 a:hover {
-    background-color: rgba(0, 128, 0, 0.742);
+    background-color: rgba(0, 128, 0, 0.798);
 }

@@ -25,12 +25,45 @@ body {
 
 .card-style-2 {
     width: 350px;
-    margin: 24px;
+    margin: 16px;
     background: white;
     padding: 20px;
     border-radius: 30px;
 }
 
+.animagram-header,
+.animagram-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.animagram-header {
+    margin-bottom: 40px;
+}
+
+.brand-name {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
 .card-style-2 img {
-    width: 100%;
+    width: 65%;
+    height: 65%;
+    border-radius: 100%;
+    display: block;
+    margin: 0px auto;
+}
+
+.card-style-2 h2 {
+    text-align: center;
+    margin: 20px;
+}
+.card-style-2 p {
+    padding: 0px 30px 0px 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.animagram-footer {
+    font-size: 26px;
 }

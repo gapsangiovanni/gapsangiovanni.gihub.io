@@ -11,15 +11,16 @@ body {
         radial-gradient(
             at top left,
             #EBD9CA,
-            #6B4727
+            #986941
         )
     ;
+    padding: 20px;
 }
 
-#section1 #image1 {
+#image1 img {
     width: 65%;
-    height: 65%;
-    border-radius: 100%;
+    border-radius: 15px;
+    box-shadow: -1px 1px 12px #6B4727;
     display: block;
     margin: 0px auto;
 }

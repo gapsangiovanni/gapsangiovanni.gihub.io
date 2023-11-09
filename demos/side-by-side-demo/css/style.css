@@ -38,3 +38,23 @@ body {
     font-size: 24px;
     margin: 24px 0px 0px;
 }
+
+#main-section {
+    background: 
+        radial-gradient(
+            at top left,
+            #d86fee,
+            #8122ed
+        )
+    ;
+    padding: 48px;
+}
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+.side-by-side .image-container img {
+    width: 100%;
+}

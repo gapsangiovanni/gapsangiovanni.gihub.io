@@ -152,10 +152,12 @@ body {
     background: 
         radial-gradient(
             at top left,
+            #d3b69f,
             #986941,
             #d3b69f
         )
     ;
+    color: #e2dada;
     box-shadow: -1px 1px 12px #6B4727;
 }
 

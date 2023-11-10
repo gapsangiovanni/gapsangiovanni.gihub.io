@@ -39,10 +39,12 @@
 #hero-1 a {
     font-size: 1.5vw;
     display: inline-block;
-    background-color: white;
-    color: #333333;
+    background-color: rgb(116, 93, 174);
+    color: white;
+    font-size: large;
+    border-radius: 10px;
     text-decoration: none;
-    padding: 24px;
+    padding: 16px;
     margin: 5vh 5vw 10vh 0px;
 }
 

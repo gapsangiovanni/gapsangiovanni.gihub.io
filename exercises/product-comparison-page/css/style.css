@@ -144,8 +144,8 @@ body {
     padding: 24px 48px;
     border-radius: 20px;
     transition:
-    color 0.5s,
-    box-shadow 0.5s
+    color 0.7s,
+    box-shadow 0.7s
     ;
 }
 .side-by-side .text-container a:hover {

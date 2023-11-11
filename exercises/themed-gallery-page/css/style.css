@@ -2,15 +2,19 @@
     box-sizing: border-box
 }
 
-#body {
+body {
     margin: 0px;
     font-family: sans-serif;
+    height: 50vh;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
+
 
 #layout {
     max-width: 800px;
     margin: 48px auto;
-    text-align: center;
 }
 
 /* Hero starts here */
@@ -21,6 +25,7 @@
     background-size: cover;
     background-position: center center;
     position: relative;
+    margin-bottom: 50%;
 }
 
 #hero #hero-content {
@@ -31,29 +36,20 @@
 
 #hero h1 {
     font-size: 8vw;
-    margin-bottom: 5vh;
     margin-right: 5vw;
-    margin-top: 0px;
-    color: #dc53c7a5;
+    margin-top: 50px;
+    color: #7ee1ec;
 }
 
 #hero h4 {
     font-size: 3vw;
     margin: 0px 5vw 0px 0px;
-    color: white;
+    color: #757ad6;
 }
 
 #hero p {
     font-size: 17px;
     color: white;
-}
-
-/* Hero stops here */
-#space-between {
-    height: 50vh;
-    background-image: url("../images/background.jpg");
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 /* Gallery begins here */
@@ -62,10 +58,12 @@
     columns: 3 auto;
     column-gap: 24px;
     padding: 24px;
-    border: 10px solid #550055;
+    border: 10px solid #1f6885;
+    background-color: #ffffff55;
 }
 
 #gallery img {
     width: 100%;
     margin-bottom: 24px;
 }
+/* Gallery stops here */

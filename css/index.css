@@ -1,40 +1,81 @@
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 body {
     margin: 0px;
-    background-image: url("../images/background.jpg");
     background-size: cover;
     background-attachment: fixed;
+}
+
+#first-three {
+    display: flex;
+    gap: 15px;
 }
 
 #nav-bar {
     background-color: #746694;
     padding: 20px;
+    display: flex;
 }
+
 
 #nav-bar a {
     text-decoration: none;
     color: #C7B2FA;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
-#nav-bar #first-three {
-    
+#hero {
+    background: linear-gradient(45deg, #ffffff55, #ffffff55),
+    url(../images/home-1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
 }
 
-#nav-bar #last {
-    float: right;
+#hero h1 {
+    font-size: 10vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    color: #3E2F61;
 }
 
-#buttons-1 a {
+#hero h3 {
+    font-size: 5vw;
+    margin: 0px 5vw 0px 0px;
+    color: #3E2F61;
+}
+
+#hero a {
     font-size: 3vw;
     display: inline-block;
-    background-color: #333333;
-    color: white;
+    background-color: #746694;
+    border-radius: 10px;
+    color: #C7B2FA;
     text-decoration: none;
-    padding: 24px;
+    padding: 17px;
     margin: 5vh 5vw 10vh 0px;
 }
 
+#nav-bar #last {
+    margin-left: auto;
+    display: block;
+}
+
+#gallery-page {
+    columns: 3 auto;
+    column-gap: 27px;
+    padding: 30px 30px 0px 30px;
+    border: 10px solid #3E2F61;
+    background-color: #7354bb4b;
+}
+
+#gallery-page img {
+    width: 100%;
+    margin-bottom: 24px;
+}

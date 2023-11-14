@@ -11,6 +11,7 @@ body {
 #first-three {
     display: flex;
     gap: 15px;
+    height: 100%;
 }
 
 #nav-bar {
@@ -24,6 +25,14 @@ body {
     text-decoration: none;
     color: #C7B2FA;
     font-size: 2vw;
+    display: block;
+    transition:
+    background-color 0.5s,
+    ;
+}
+#nav-bar a:hover {
+    background-color: #3E2F61;
+    height: 100%;
 }
 
 #hero {
@@ -60,6 +69,14 @@ body {
     text-decoration: none;
     padding: 17px;
     margin: 5vh 5vw 10vh 0px;
+    transition:
+    background-color 0.5s,
+    box-shadow 0.5s
+    ;
+}
+#hero a:hover {
+    background-color: #3E2F61;
+    box-shadow: inset 3px 5px 15px #000000;
 }
 
 #nav-bar #last {

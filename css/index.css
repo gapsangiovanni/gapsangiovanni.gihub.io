@@ -16,7 +16,7 @@ body {
 
 #nav-bar {
     background-color: #746694;
-    padding: 20px;
+    padding: 0px 20px;
     display: flex;
 }
 
@@ -26,6 +26,7 @@ body {
     color: #C7B2FA;
     font-size: 2vw;
     display: block;
+    padding: 20px;
     transition:
     background-color 0.5s,
     ;

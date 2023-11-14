@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0px;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#nav-bar {
+    background-color: #746694;
+    padding: 20px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: #C7B2FA;
+    font-size: 3vw;
+}
+
+#nav-bar #first-three {
+    
+}
+
+#nav-bar #last {
+    float: right;
+}
+
+#buttons-1 a {
+    font-size: 3vw;
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+

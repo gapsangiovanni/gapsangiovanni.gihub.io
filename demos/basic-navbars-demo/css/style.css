@@ -16,6 +16,9 @@ body {
     */
     justify-content: space-between;
     align-items: center;
+}
+
+#header {
     /*
         Below is how you can make your navbar follow you as
         you scroll the page.
@@ -54,4 +57,34 @@ body {
     margin: 48px auto;
     font-size: 24px;
     height: 200vh;
+}
+
+#navbar-bottom {
+    background: linear-gradient(to bottom, yellowgreen, olive);
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 36px;
+}
+
+#footer {
+    background-color: teal;
+    color: white;
+    padding: 12px;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
 }

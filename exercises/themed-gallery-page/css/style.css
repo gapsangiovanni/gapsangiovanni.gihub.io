@@ -39,12 +39,14 @@ body {
     margin-right: 5vw;
     margin-top: 50px;
     color: #7ee1ec;
+    text-shadow: 5px 5px #0d4156;
 }
 
 #hero h4 {
     font-size: 3vw;
     margin: 0px 5vw 0px 0px;
     color: #757ad6;
+    text-shadow: 3px 3px #0d4156;
 }
 
 #hero p {

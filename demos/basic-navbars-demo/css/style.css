@@ -96,3 +96,12 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+#footer-columns-navbar div {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-columns-navbar a {
+    padding: 8px 0px;
+}

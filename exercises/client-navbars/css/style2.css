@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Noto+Serif&display=swap');
+
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: 'Noto Serif', serif;
 }
 
 #navbar {
-    background: linear-gradient(to bottom, #9cc4e4, #3f5a95);
+    background: linear-gradient(to bottom, #ffe8a2, #dbb314);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,13 +30,13 @@ body {
 ;
 }
 #navbar a:hover {
-    background-color: #0c0a4b;
-    color: #408dc1;
+    background-color: #ffcc00;
+    color: #a07801;
 }
 
 #navbar #logo {
     margin-right: auto;
-    color: #0a174b;
+    color: #7c5d00;
     font-weight: bold;
     font-size: 26px;
     display: block;

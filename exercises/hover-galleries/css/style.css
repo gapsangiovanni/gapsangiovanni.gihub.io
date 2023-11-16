@@ -16,7 +16,7 @@ body {
     flex: 200px;
     border: 3px solid #2f7974;
     margin: 24px;
-    padding: 24px;
+    height: 250px;
     border-radius: 12px;
     text-align: center;
     background-color: #d1fffc;
@@ -36,6 +36,14 @@ body {
     visibility: visible;
 }
 
+#button {
+    flex: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 24px;
+    padding-top: 50px;
+}
+
 #button a {
     text-decoration: none;
     color: #2f7974;
@@ -51,6 +59,120 @@ body {
 }
 
 #button a:hover {
+    box-shadow: 4px 4px 4px #00000033;
+    background-color: #2f7974;
+    border: 3px solid #d1fffc;
+    color: #d1fffc;
+}
+
+/* Cards Gallery 2 */
+#card2 {
+    flex: 200px;
+    border: 3px solid #332f79;
+    margin: 24px;
+    height: 250px;
+    border-radius: 12px;
+    padding: 7px;
+    text-align: center;
+    background-color: #e0e0ff;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-15px);
+}
+
+#card2 h2 {
+    color: #332f79;
+}
+
+#card2 p {
+    font-size: 15.5px;
+    color: #332f79;
+    visibility: hidden;
+    transition:
+    font-size 0.5s,
+    visibility 0.5s;
+}
+
+#card2:hover p {
+    visibility: visible;
+}
+
+#button2 {
+    flex: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 24px;
+    padding-top: 50px;
+}
+
+#button2 a {
+    text-decoration: none;
+    color: #332f79;
+    background-color: #e0e0ff;
+    border: 3px solid #332f79;
+    border-radius: 20px;
+    padding: 10px;
+    transition:
+    background-color 0.5s,
+    border 0.5s,
+    box-shadow 0.5s,
+    color 0.5s;
+}
+
+#button2 a:hover {
+    box-shadow: 4px 4px 4px #00000033;
+    background-color: #332f79;
+    border: 3px solid #e0e0ff;
+    color: #e0e0ff;
+}
+
+/* Cards Gallery 3 */
+#card3 {
+    flex: 200px;
+    border: 3px solid #2f7974;
+    margin: 24px;
+    height: 250px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #d1fffc;
+}
+
+#card3 p {
+    font-size: 24px;
+    color: #2f7974;
+    visibility: hidden;
+    transition:
+    font-size 0.5s,
+    visibility 0.5s;
+}
+
+#card3:hover p {
+    font-size: 80px;
+    visibility: visible;
+}
+
+#button3 {
+    flex: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 24px;
+    padding-top: 50px;
+}
+
+#button3 a {
+    text-decoration: none;
+    color: #2f7974;
+    background-color: #d1fffc;
+    border: 3px solid #2f7974;
+    border-radius: 20px;
+    padding: 10px;
+    transition:
+    background-color 0.5s,
+    border 0.5s,
+    box-shadow 0.5s,
+    color 0.5s;
+}
+
+#button3 a:hover {
     box-shadow: 4px 4px 4px #00000033;
     background-color: #2f7974;
     border: 3px solid #d1fffc;

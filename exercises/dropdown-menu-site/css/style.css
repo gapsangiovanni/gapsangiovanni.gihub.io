@@ -106,3 +106,14 @@ body {
     margin: 0px;
     color: #ffffff;
 }
+
+#content {
+    
+}
+
+#content p {
+    background-color: #a57e4b;
+    font-size: 100px;
+    border-radius: 30px;
+    padding: 30px 70px;
+}

@@ -4,6 +4,8 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #ffd49c;
+    height: 1645px;
 }
 
 /* Navbar starts here */
@@ -33,6 +35,14 @@ body {
     background-color: #b86f10;
 }
 
+.dropdown-container i {
+    visibility: hidden;
+    opacity: 0;
+    transition:
+        opacity 0.30s,
+        visibility 0.30s;
+}
+
 .dropdown-container {
     position: relative;
 }
@@ -46,7 +56,8 @@ body {
         visibility 0.30s;
 }
 
-.dropdown-container:hover .dropdown-menu {
+.dropdown-container:hover .dropdown-menu,
+.dropdown-container:hover i {
     visibility: visible;
     opacity: 1;
 }
@@ -63,27 +74,35 @@ body {
 /* Navbar stops here */
 
 #hero {
-    background-image: url("../images/night.jpg");
+    background-image: url("../images/hero.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center center;
     display: flex;
     flex-direction: column;
+    padding-top: 50px;
+    align-items: flex-end;
 }
 
-#hero #hero-content {
+#hero-content {
     background-color: #a57e4b;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 300px;
+    padding: 30px 70px;
 }
 
 #hero h2 {
-    font-size: 70px;
-    margin-bottom: 5vh;
-    margin-right: 5vw;
-    color: #ecadad88;
+    font-size: 50px;
+    margin: 0px;
+    color: #ffffff;
 }
 
 #hero p {
-    font-size: 3vw;
-    margin: 0px 5vw 0px 0px;
-    color: #c46d6d;
+    font-size: 20px;
+    margin: 0px;
+    color: #ffffff;
 }

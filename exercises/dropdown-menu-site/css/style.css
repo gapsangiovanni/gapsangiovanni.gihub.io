@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* Navbar starts here */
+#navbar {
+    border-bottom: 3px solid black;
+    background: linear-gradient(to bottom, #ffd49c, #b86f10);
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+#navbar a:hover {
+    background-color: #b86f10;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition:
+        opacity 0.30s,
+        visibility 0.30s;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.dropdown-menu a {
+    background-color: #b86f10;
+    width: 100%;
+    min-width: 200px;
+}
+
+#navbar .dropdown-menu a:hover {
+    background: #ffd49c;
+}
+/* Navbar stops here */
+
+#hero {
+    background-image: url("../images/night.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+}
+
+#hero h2 {
+    font-size: 97px;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    color: #0080ff88;
+}
+
+#hero p {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+    color: #bacad6;
+}

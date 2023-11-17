@@ -120,12 +120,42 @@ body {
 #content2 {
     background-color: #a57e4b84;
     border-radius: 30px;
-    padding: 30px 70px;
-    margin: 70px 80px;
+    height: 570px;
+    width: 350px;
+    padding: 0px auto;
+    padding-top: 40px;
+    margin: 0px auto;
+    margin-top: 70px;
     text-align: center;
 }
 
 #content2 img {
     width: 200px;
     border-radius: 30px;
+}
+
+#content2 #card p {
+    margin: 35px;
+    margin-top: 0px;
+}
+
+#content2 #card a {
+    background-color: #b86f10af;
+    border: 2px solid #b86f1010;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    transition:
+        background-color 0.30s,
+        border 0.30s,
+        color 0.30s;
+}
+
+#content2 #card a:hover {
+    background-color: #ffd49c;
+    border: 2px solid #b86f10;
+    color: #b86f10;
 }

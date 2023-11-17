@@ -71,15 +71,19 @@ body {
     flex-direction: column;
 }
 
+#hero #hero-content {
+    background-color: #a57e4b;
+}
+
 #hero h2 {
-    font-size: 97px;
+    font-size: 70px;
     margin-bottom: 5vh;
     margin-right: 5vw;
-    color: #0080ff88;
+    color: #ecadad88;
 }
 
 #hero p {
     font-size: 3vw;
     margin: 0px 5vw 0px 0px;
-    color: #bacad6;
+    color: #c46d6d;
 }

@@ -90,16 +90,26 @@ body {
     display: block;
 }
 
+#between {
+    margin-left: 28vw;
+    height: 200px;
+}
+
+#between h2 {
+    color: white;
+    font-size: 100px;
+}
+
 #layout {
     max-width: 800px;
     margin: 48px auto;
+    margin-bottom: 20px;
 }
 
 #gallery-page {
     columns: 3 auto;
     column-gap: 27px;
     padding: 30px 30px 0px 30px;
-    border: 10px solid #3E2F61;
     background-color: #7354bb4b;
 }
 

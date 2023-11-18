@@ -6,6 +6,11 @@ body {
     margin: 0px;
     background-size: cover;
     background-attachment: fixed;
+    font-family: sans-serif;
+    height: 50vh;
+    background-image: url("../images/Matte_Painting.png");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #first-three {
@@ -83,6 +88,11 @@ body {
 #nav-bar #last {
     margin-left: auto;
     display: block;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
 }
 
 #gallery-page {

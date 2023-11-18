@@ -216,12 +216,17 @@ a {
         flex-direction: column;
     }
     #hero {
-        height: 100vh
+        height: 70vh
     }
     #hero h1 {
         font-size: 5.625rem;
     }
     #hero h3 {
-        font-size: 3.438rem;
+        font-size: 3.563rem;
+    }
+    .three-cards,
+    .two-cards {
+        display: flex;
+        flex-direction: column;
     }
 }

@@ -215,5 +215,13 @@ a {
     #nav {
         flex-direction: column;
     }
-    
+    #hero {
+        height: 100vh
+    }
+    #hero h1 {
+        font-size: 5.625rem;
+    }
+    #hero h3 {
+        font-size: 3.438rem;
+    }
 }

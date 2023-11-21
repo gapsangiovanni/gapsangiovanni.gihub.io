@@ -25,7 +25,6 @@ body {
     display: flex;
 }
 
-
 #nav-bar a {
     text-decoration: none;
     color: #C7B2FA;
@@ -127,8 +126,30 @@ body {
         align-items: center;
     }
 
-    #last {
+    #first-three {
+        gap: 0px;
+    }
+
+    #nav-bar {
+        text-align: center;
+    }
+
+    #nav-bar #last {
         margin-left: 0px;
         text-align: center;
+    }
+
+    #nav-bar a {
+        font-size: 1.35rem;
+        padding: 5px;
+    }
+
+    #between {
+        height: 200px;
+    }
+
+    #between h2 {
+        font-size: 50px;
+        margin-top: 110px;
     }
 }

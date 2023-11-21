@@ -39,6 +39,11 @@ body {
     height: 100%;
 }
 
+#nav-bar #last {
+    margin-left: auto;
+    display: block;
+}
+
 #hero {
     background: linear-gradient(45deg, #ffffff55, #ffffff55),
     url(../images/home-1.jpg);
@@ -80,11 +85,6 @@ body {
 #hero a:hover {
     background-color: #3E2F61;
     box-shadow: inset 3px 5px 15px #000000;
-}
-
-#nav-bar #last {
-    margin-left: auto;
-    display: block;
 }
 
 #between {

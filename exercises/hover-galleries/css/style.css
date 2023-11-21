@@ -27,8 +27,8 @@ body {
     color: #2f7974;
     visibility: hidden;
     transition:
-    font-size 0.5s,
-    visibility 0.5s;
+        font-size 0.5s,
+        visibility 0.5s;
 }
 
 #card:hover p {
@@ -44,10 +44,10 @@ body {
     border-radius: 20px;
     padding: 10px;
     transition:
-    background-color 0.5s,
-    border 0.5s,
-    box-shadow 0.5s,
-    color 0.5s;
+        background-color 0.5s,
+        border 0.5s,
+        box-shadow 0.5s,
+        color 0.5s;
 }
 
 #button a:hover {
@@ -80,8 +80,8 @@ body {
     color: #332f79;
     visibility: hidden;
     transition:
-    font-size 0.5s,
-    visibility 0.5s;
+        font-size 0.5s,
+        visibility 0.5s;
 }
 
 #card2:hover p {
@@ -96,10 +96,10 @@ body {
     border-radius: 20px;
     padding: 10px;
     transition:
-    background-color 0.5s,
-    border 0.5s,
-    box-shadow 0.5s,
-    color 0.5s;
+        background-color 0.5s,
+        border 0.5s,
+        box-shadow 0.5s,
+        color 0.5s;
 }
 
 #button2 a:hover {
@@ -197,10 +197,10 @@ body {
     border-radius: 20px;
     padding: 10px;
     transition:
-    background-color 0.5s,
-    border 0.5s,
-    box-shadow 0.5s,
-    color 0.5s;
+        background-color 0.5s,
+        border 0.5s,
+        box-shadow 0.5s,
+        color 0.5s;
 }
 
 #button3 a:hover {

@@ -119,3 +119,19 @@ body {
     width: 100%;
     margin-bottom: 24px;
 }
+
+@media screen and (max-width: 1000px) {
+    #hero h1 {
+        font-size: 10vw;
+        margin-bottom: 0vh;
+    }
+    
+    #hero h3 {
+        font-size: 7vw;
+    }
+    
+    #hero a {
+        font-size: 5vw;
+        margin: 1vh 5vw 10vh 0px;
+    }
+}

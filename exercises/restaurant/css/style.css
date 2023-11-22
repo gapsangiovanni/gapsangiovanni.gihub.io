@@ -10,12 +10,18 @@ body{
 #nav-bar {
     background-color: #FDF1D1;
     padding: 11px;
+    display: flex;
 }
 
 #nav-bar #name-button a,
 #nav-bar #nav-bar-buttons a {
     text-decoration: none;
     color: #3F8E98;
+}
+
+#name-button {
+    margin-right: auto;
+    display: block;
 }
 
 #name-button a {
@@ -26,7 +32,7 @@ body{
 #nav-bar #nav-bar-buttons a {
     font-family: 'Charm', cursive;
     font-size: 1.563rem;
-    /* margin-left: auto; */
+    margin-right: 35px;
 }
 
 #hero {
@@ -135,8 +141,7 @@ body{
 }
 
 #footer #social-media img {
-    width: 100px;
-    display: inline;
+    width: 70px;
 }
 
 .social {
@@ -145,4 +150,5 @@ body{
 
 .social img {
     flex: 1;
+    display: block;
 }

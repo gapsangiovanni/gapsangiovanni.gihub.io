@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Great+Vibes&family=Kavivanar&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+#nav-bar {
+    background-color: #FDF1D1;
+    margin: 0px;
+    padding: 11px;
+}
+
+#nav-bar #name-button a,
+#nav-bar #nav-bar-buttons a {
+    text-decoration: none;
+    color: #3F8E98;
+}
+
+#name-button a {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.188rem;
+}
+
+#nav-bar #nav-bar-buttons a {
+    font-family: 'Charm', cursive;
+    font-size: 1.563rem;
+    margin-left: auto;
+}

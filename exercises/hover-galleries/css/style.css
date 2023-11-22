@@ -4,6 +4,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    
 }
 
 #cards-container {
@@ -12,7 +13,7 @@ body {
     align-items: flex-start;
 }
 
-#card {
+.card {
     flex: 200px;
     border: 3px solid #2f7974;
     margin: 24px;
@@ -22,7 +23,7 @@ body {
     background-color: #d1fffc;
 }
 
-#card p {
+.card p {
     font-size: 24px;
     color: #2f7974;
     visibility: hidden;
@@ -31,7 +32,7 @@ body {
         visibility 0.5s;
 }
 
-#card:hover p {
+.card:hover p {
     font-size: 80px;
     visibility: visible;
 }
@@ -58,7 +59,7 @@ body {
 }
 
 /* Cards Gallery 2 */
-#card2 {
+.card2 {
     flex: 200px;
     border: 3px solid #332f79;
     margin: 24px;
@@ -71,11 +72,11 @@ body {
     transform: translateY(-15px);
 }
 
-#card2 h2 {
+.card2 h2 {
     color: #332f79;
 }
 
-#card2 p {
+.card2 p {
     font-size: 20px;
     color: #332f79;
     visibility: hidden;
@@ -84,7 +85,7 @@ body {
         visibility 0.5s;
 }
 
-#card2:hover p {
+.card2:hover p {
     visibility: visible;
 }
 
@@ -110,7 +111,7 @@ body {
 }
 
 /* Cards Gallery 3 */
-#card3 {
+.card3 {
     flex: 200px;
     margin: 24px;
     height: 250px;
@@ -121,34 +122,34 @@ body {
     padding: 0px;
 }
 
-#card3 #card-front,
-#card3 #card-back {
+.card3 #card-front,
+.card3 #card-back {
     border: 3px solid #792f69;
     border-radius: 12px;
     padding: 24px;
 }
 
-#card3 #card-back {
+.card3 #card-back {
     transform: scaleX(0);
 }
 
-#card3 .card-front1 {
+.card3 .card-front1 {
     background-image: url(../images/Nala1.jpeg);
 }
 
-#card3 .card-front2 {
+.card3 .card-front2 {
     background-image: url(../images/Nala2.jpeg)
 }
 
-#card3 .card-front3 {
+.card3 .card-front3 {
     background-image: url(../images/Sully1.jpeg)
 }
 
-#card3 .card-front4 {
+.card3 .card-front4 {
     background-image: url(../images/Sully2.jpeg)
 }
 
-#card3 #card-front {
+.card3 #card-front {
     background-size: cover;
     border-radius: 12px;
     width: 100%;
@@ -156,11 +157,11 @@ body {
     position: absolute;
 }
 
-#card3 #card-front {
+.card3 #card-front {
     transition: transform 0.25s 0.25s;
 }
 
-#card3 #card-back {
+.card3 #card-back {
     transition: transform 0.25s;
     height: 250px;
     background-color: #ffe0eb;
@@ -169,12 +170,12 @@ body {
     justify-content: center;
 }
 
-#card3:hover #card-front {
+.card3:hover #card-front {
     transform: scaleX(0);
     transition: transform 0.25s;
 }
 
-#card3:hover #card-back{
+.card3:hover #card-back{
     transform: scaleX(1);
     transition: transform 0.25s 0.25s;
 }

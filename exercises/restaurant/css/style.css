@@ -78,21 +78,18 @@ body{
 
 
 #footer {
-    background-color: teal;
-    color: white;
+    background-color: #3F8E98;
+    color: #FDF1D1;
     padding: 12px;
 }
 
-#footer-navbar {
-    width: 800px;
-    margin: 0px auto;
-    display: flex;
-    justify-content: space-between;
+#footer #logo img {
+    width: 160px;
 }
 
 #footer a {
     text-decoration: none;
-    color: white;
+    color: #FDF1D1;
 }
 
 #footer-columns-navbar {
@@ -110,4 +107,9 @@ body{
 
 #footer-columns-navbar a {
     padding: 8px 0px;
+}
+
+#footer #social-media img {
+    width: 10px;
+    display: inline;
 }

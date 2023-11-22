@@ -81,8 +81,18 @@ body{
     box-shadow: inset 3px 5px 5px #4d4d4dd0;
 }
 
+#between {
+    height: 90vh;
+}
+
+#specials,
+#live {
+    margin-top: 50px;
+}
+
 #specials-images,
 #live-images {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     gap: 110px;
@@ -112,6 +122,7 @@ body{
     background-color: #3F8E98;
     color: #FDF1D1;
     padding: 12px;
+    margin-top: 30px;
 }
 
 #footer #logo img {

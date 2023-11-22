@@ -3,10 +3,12 @@
 * {
     box-sizing: border-box;
 }
+body{
+    margin: 0px;
+}
 
 #nav-bar {
     background-color: #FDF1D1;
-    margin: 0px;
     padding: 11px;
 }
 
@@ -24,5 +26,88 @@
 #nav-bar #nav-bar-buttons a {
     font-family: 'Charm', cursive;
     font-size: 1.563rem;
-    margin-left: auto;
+    /* margin-left: auto; */
+}
+
+#hero {
+    background: linear-gradient(45deg, #ffffff55, #ffffff55),
+    url(../images/pumpkin-pie.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#hero h1 {
+    font-size: 3.75rem;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    color: #3F8E98;
+    text-shadow: 3px 2px 5px #FDF1D1;
+}
+
+#hero h3 {
+    font-size: 2.5rem;
+    margin: 0px 5vw 0px 0px;
+    color: #3F8E98;
+    text-shadow: 3px 2px 5px #faf3df;
+}
+
+#hero a {
+    font-size: 3vw;
+    display: inline-block;
+    background-color: #FDF1D1;
+    border-radius: 10px;
+    color: #3F8E98;
+    text-decoration: none;
+    padding: 17px;
+    margin: 0vh 5vw 10vh 0px;
+    transition:
+        background-color 0.5s,
+        box-shadow 0.5s;
+}
+#hero a:hover {
+    background-color: #3F8E98;
+    color: #FDF1D1;
+    box-shadow: inset 3px 5px 5px #4d4d4dd0;
+}
+
+
+
+#footer {
+    background-color: teal;
+    color: white;
+    padding: 12px;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-columns-navbar {
+    width: 800px;
+    margin: 0px auto;
+    padding: 48px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-columns-navbar div {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-columns-navbar a {
+    padding: 8px 0px;
 }

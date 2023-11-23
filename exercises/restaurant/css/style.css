@@ -4,15 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(45deg, #ffffff55, #ffffff55),
-    url(../images/background.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: sans-serif;
+    background-color: #eefeff;
     margin: 0px;
-    height: 50vh;
 }
 
 #nav-bar {
@@ -133,6 +126,18 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+#featured-item {
+    display: flex;
+}
+
+.image-item img {
+    width: 700px;
+}
+
+.text-item {
+    color: #3F8E98;
 }
 
 #footer {

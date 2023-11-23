@@ -152,19 +152,21 @@ body{
 }
 
 #footer-columns-navbar {
-    width: 800px;
     margin: 0px auto;
     padding: 48px 0px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
-
-
 
 #footer-columns-navbar div {
     display: flex;
     flex-direction: column;
 }
+
+/* #footer-columns-navbar div a {
+    margin-left: 50px;
+    margin-right: 50px;
+} */
 
 #footer-columns-navbar a {
     padding: 8px 0px;

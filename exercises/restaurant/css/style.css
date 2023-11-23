@@ -132,14 +132,18 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .image-item img {
     width: 700px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 5px #3F8E98;
 }
 
 .text-item {
     color: #3F8E98;
+    margin-left: 60px;
 }
 
 #menu {
@@ -151,7 +155,7 @@ body{
 .menu-all {
     width: 350px;
     margin: 16px;
-    background: white;
+    background: #3F8E98;
     padding: 25px;
     border-radius: 30px;
 }
@@ -162,6 +166,46 @@ body{
 
 .center {
     text-align: center;
+    color: #3F8E98;
+}
+
+#heading h1 {
+    font-size: 80px;
+}
+
+.appetizer,
+.main-dishes,
+.side-dishes,
+.desserts {
+    flex: 1;
+    justify-content: center;
+}
+
+.appetizer .center,
+.main-dishes .center,
+.side-dishes .center,
+.desserts .center {
+    font-size: 35px;
+}
+
+.appetizer div h2,
+.main-dishes div h2,
+.side-dishes div h2,
+.desserts div h2 {
+    font-size: 20px;
+    color: #FDF1D1;
+}
+
+.appetizer p,
+.main-dishes p,
+.side-dishes p,
+.desserts p {
+    font-size: 15px;
+    color: #D1FAFD;
+}
+
+.menu-all div p {
+    margin-left: auto;
 }
 
 #footer {
@@ -184,18 +228,14 @@ body{
     margin: 0px auto;
     padding: 48px 0px;
     display: flex;
+    gap: 45px;
     justify-content: center;
 }
 
-#footer-columns-navbar div {
+#footer-columns-navbar .col {
     display: flex;
     flex-direction: column;
 }
-
-/* #footer-columns-navbar div a {
-    margin-left: 50px;
-    margin-right: 50px;
-} */
 
 #footer-columns-navbar a {
     padding: 8px 0px;

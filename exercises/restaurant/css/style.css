@@ -253,3 +253,41 @@ body{
     flex: 1;
     display: block;
 }
+
+@media screen and (max-width: 768px) and (min-width: 501px) {
+    
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background-color: #767676;
+    }
+
+    #featured-item {
+        flex-direction: column;
+    }
+    
+    .image-item img {
+        width: 400px;
+        border-radius: 30px;
+    }
+
+    .text-item {
+        width: 90%;
+        font-size: 26px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text-item h1 {
+        text-align: center;
+    }
+
+    #footer-columns-navbar {
+        flex-direction: column;
+    }
+
+    .social img {
+        flex: 20px !important;
+    }
+}

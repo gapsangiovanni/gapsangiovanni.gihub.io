@@ -8,6 +8,7 @@ body{
     margin: 0px;
 }
 
+/* Navbar Starts */
 #nav-bar {
     background-color: #FDF1D1;
     padding: 11px;
@@ -37,7 +38,9 @@ body{
     font-size: 1.563rem;
     margin-right: 35px;
 }
+/* Navbar Ends */
 
+/* Hero Starts */
 #hero {
     background: linear-gradient(45deg, #ffffff55, #ffffff55),
     url(../images/pumpkin-pie.jpg);
@@ -83,7 +86,9 @@ body{
     color: #FDF1D1;
     box-shadow: inset 3px 5px 5px #4d4d4dd0;
 }
+/* Hero Ends */
 
+/* Special Starts */
 #specials,
 #live {
     height: 100vh;
@@ -125,7 +130,9 @@ body{
     height: 100%;
     object-fit: cover;
 }
+/* Special End */
 
+/* Feature & Event Item Starts */
 #featured-item {
     display: flex;
     justify-content: center;
@@ -143,7 +150,9 @@ body{
     color: #3F8E98;
     margin-left: 60px;
 }
+/* Feature & Event Item Ends */
 
+/* Menu Starts */
 #menu {
     display: flex;
     justify-content: center;
@@ -151,10 +160,11 @@ body{
 }
 
 .menu-all {
-    width: 350px;
+    width: 850px;
     margin: 16px;
     background: #3F8E98;
     padding: 25px;
+    /* padding: 25px 100px 25px 100px; */
     border-radius: 30px;
 }
 
@@ -168,7 +178,7 @@ body{
 }
 
 #heading h1 {
-    font-size: 80px;
+    font-size: 85px;
 }
 
 .appetizer,
@@ -183,14 +193,14 @@ body{
 .main-dishes .center,
 .side-dishes .center,
 .desserts .center {
-    font-size: 35px;
+    font-size: 45px;
 }
 
 .appetizer div h2,
 .main-dishes div h2,
 .side-dishes div h2,
 .desserts div h2 {
-    font-size: 20px;
+    font-size: 27px;
     color: #FDF1D1;
 }
 
@@ -198,28 +208,39 @@ body{
 .main-dishes p,
 .side-dishes p,
 .desserts p {
-    font-size: 15px;
+    font-size: 20px;
     color: #D1FAFD;
 }
 
 .menu-all div p {
     margin-left: auto;
 }
+/* Menu Ends */
 
+/* Footer Starts */
 #footer {
     background-color: #3F8E98;
     color: #FDF1D1;
     padding: 12px;
     margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #footer #logo img {
     width: 160px;
 }
 
+#logo {
+    display: flex;
+    align-items: center;
+}
+
 #footer a {
     text-decoration: none;
     color: #FDF1D1;
+    font-size: 25px;
 }
 
 #footer-columns-navbar {
@@ -244,10 +265,13 @@ body{
 }
 
 .social img {
-    width: 40%;
+    width: 3.5%;
+    display: block;
 }
+/* Footer Ends */
 
 @media screen and (max-width: 768px) and (min-width: 501px) {
+    /* Navbar */
     #nav-bar {
         text-align: center;
         padding: 0px;
@@ -267,7 +291,7 @@ body{
     }
 
     #name-button a {
-        font-size: 1.25rem;
+        font-size: 1.875rem;
         margin-right: 0px;
     }
 
@@ -276,17 +300,20 @@ body{
     }
     
     #nav-bar #nav-bar-buttons a {
-        font-size: 0.938rem;
+        font-size: 1.25rem;
+        margin: 10px;
     }
+    /* Navbar */
 
+    /* Feature Item */
     #featured-item {
         flex-direction: column;
     }
     
-    .image-item img {
-        width: 500px;
+    /* .image-item img {
+        width: 600px;
         border-radius: 30px;
-    }
+    } */
 
     .text-item {
         width: 90%;
@@ -302,7 +329,46 @@ body{
     .text-item p {
         text-align: center;
     }
+    /* Feature Item */
 
+    /* Menu */
+    .menu-all {
+        width: 650px;
+        margin: 16px;
+        background: #3F8E98;
+        padding: 25px;
+        border-radius: 30px;
+    }
+
+    #heading h1 {
+        font-size: 60px;
+    }
+    
+    .appetizer .center,
+    .main-dishes .center,
+    .side-dishes .center,
+    .desserts .center {
+        font-size: 32px;
+    }
+    
+    .appetizer div h2,
+    .main-dishes div h2,
+    .side-dishes div h2,
+    .desserts div h2 {
+        font-size: 22px;
+        color: #FDF1D1;
+    }
+    
+    .appetizer p,
+    .main-dishes p,
+    .side-dishes p,
+    .desserts p {
+        font-size: 17px;
+        color: #D1FAFD;
+    }
+    /* Menu */
+
+    /* Footer */
     #footer-columns-navbar {
         flex-direction: column;
         align-items: center;
@@ -331,9 +397,15 @@ body{
         width: 100%;
         text-align: center;
     }
+
+    #footer a {
+        font-size: 20px;
+    }
+    /* Footer */
 }
 
 @media screen and (max-width: 500px) {
+    /* Navbar */
     #nav-bar {
         text-align: center;
         padding: 0px;
@@ -353,7 +425,7 @@ body{
     }
 
     #name-button a {
-        font-size: 1.25rem;
+        font-size: 1.875rem;
         margin-right: 0px;
     }
 
@@ -362,9 +434,12 @@ body{
     }
     
     #nav-bar #nav-bar-buttons a {
-        font-size: 0.938rem;
+        font-size: 1.25rem;
+        margin: 10px;
     }
-
+    /* Navbar */
+    
+    /* Featured Item */
     #featured-item {
         flex-direction: column;
     }
@@ -388,7 +463,46 @@ body{
     .text-item p {
         text-align: center;
     }
+    /* Feature Item */
 
+     /* Menu */
+     .menu-all {
+        width: 450px;
+        margin: 16px;
+        background: #3F8E98;
+        padding: 25px;
+        border-radius: 30px;
+    }
+
+    #heading h1 {
+        font-size: 54px;
+    }
+    
+    .appetizer .center,
+    .main-dishes .center,
+    .side-dishes .center,
+    .desserts .center {
+        font-size: 28px;
+    }
+    
+    .appetizer div h2,
+    .main-dishes div h2,
+    .side-dishes div h2,
+    .desserts div h2 {
+        font-size: 19px;
+        color: #FDF1D1;
+    }
+    
+    .appetizer p,
+    .main-dishes p,
+    .side-dishes p,
+    .desserts p {
+        font-size: 15px;
+        color: #D1FAFD;
+    }
+    /* Menu */
+
+    /* Footer */
     #footer-columns-navbar {
         flex-direction: column;
         align-items: center;
@@ -417,4 +531,9 @@ body{
         width: 100%;
         text-align: center;
     }
+
+    #footer a {
+        font-size: 20px;
+    }
+    /* Footer */
 }

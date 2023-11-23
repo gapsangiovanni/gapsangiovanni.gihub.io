@@ -20,6 +20,10 @@ body{
     padding: 11px;
     display: flex;
 }
+#nav-bar {
+    position: sticky;
+    top: 0px;
+}
 
 #nav-bar #name-button a,
 #nav-bar #nav-bar-buttons a {
@@ -154,6 +158,8 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+
 
 #footer-columns-navbar div {
     display: flex;

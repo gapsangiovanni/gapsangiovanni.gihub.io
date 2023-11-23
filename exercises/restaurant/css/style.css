@@ -130,6 +130,8 @@ body{
 
 #featured-item {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .image-item img {
@@ -138,6 +140,28 @@ body{
 
 .text-item {
     color: #3F8E98;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu-all {
+    width: 350px;
+    margin: 16px;
+    background: white;
+    padding: 25px;
+    border-radius: 30px;
+}
+
+.menu-all div {
+    display: flex;
+}
+
+.center {
+    text-align: center;
 }
 
 #footer {

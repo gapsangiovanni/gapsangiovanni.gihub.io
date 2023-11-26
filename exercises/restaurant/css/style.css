@@ -96,10 +96,10 @@ body{
 
 #specials-images,
 #live-images {
-    margin-top: 50px;
+    margin-top: 4vh;
     display: flex;
     justify-content: center;
-    gap: 110px;
+    gap: 14vh;
 }
 
 .header {
@@ -116,11 +116,11 @@ body{
 }
 
 #specials h2 {
-    margin-top: 100px;
+    margin-top: 12vh;
 }
 
 .images {
-    height: 600px;
+    height: 60vh;
     flex: 1;
 }
 
@@ -164,7 +164,6 @@ body{
     margin: 16px;
     background: #3F8E98;
     padding: 25px;
-    /* padding: 25px 100px 25px 100px; */
     border-radius: 30px;
 }
 
@@ -222,7 +221,7 @@ body{
     background-color: #3F8E98;
     color: #FDF1D1;
     padding: 12px;
-    margin-top: 110px;
+    margin-top: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;

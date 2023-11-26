@@ -26,10 +26,22 @@ body {
 .card-style-3 {
     width: 355px;
     margin: 16px;
-    background: #ab9019;
     padding: 0px 15px;
     border-radius: 10px;
     border: 18px solid #f5cb13;
+}
+
+#pokemon-card-1,
+#pokemon-card-2 {
+    background: linear-gradient(145deg, lightgreen, #1e861e, lightgreen);
+}
+
+#pokemon-card-3 {
+    background: linear-gradient(145deg, orange, #fb4807, orange);
+}
+
+#pokemon-card-4 {
+    background: linear-gradient(145deg, #0afafa, #8ed1ec, #0afafa);
 }
 
 .card-style-3 h2 {

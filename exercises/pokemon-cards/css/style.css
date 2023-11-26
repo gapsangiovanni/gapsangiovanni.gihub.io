@@ -7,3 +7,74 @@
     Just be aware that you may break some
     of the setup.css styling if you do so.
 */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#main {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-style-3 {
+    width: 355px;
+    margin: 16px;
+    background: #ab9019;
+    padding: 0px 15px;
+    border-radius: 10px;
+    border: 18px solid #f5cb13;
+}
+
+.card-style-3 h2 {
+    font-size: 27px;
+    margin-bottom: 0px;
+    margin-top: 16px;
+}
+
+.card-style-3 img {
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+    border: 5px solid white;
+    margin-bottom: 5px;
+}
+
+.pokemon-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.health {
+    margin-top: 22px;
+    font-size: 19px;
+}
+
+.details {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    background: #a7a5a5;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.attack {
+    border-bottom: 2px solid black;
+    display: flex;
+}
+
+.energy,
+.description,
+.power {
+    margin: 10px;
+    align-items: center;
+}

@@ -122,34 +122,34 @@ body {
     padding: 0px;
 }
 
-.card3 #card-front,
-.card3 #card-back {
+.card3 .card-front,
+.card3 .card-back {
     border: 3px solid #792f69;
     border-radius: 12px;
     padding: 24px;
 }
 
-.card3 #card-back {
+.card3 .card-back {
     transform: scaleX(0);
 }
 
-.card3 .card-front1 {
+.card3 #card-front1 {
     background-image: url(../images/Nala1.jpeg);
 }
 
-.card3 .card-front2 {
+.card3 #card-front2 {
     background-image: url(../images/Nala2.jpeg)
 }
 
-.card3 .card-front3 {
+.card3 #card-front3 {
     background-image: url(../images/Sully1.jpeg)
 }
 
-.card3 .card-front4 {
+.card3 #card-front4 {
     background-image: url(../images/Sully2.jpeg)
 }
 
-.card3 #card-front {
+.card3 .card-front {
     background-size: cover;
     border-radius: 12px;
     width: 100%;
@@ -157,11 +157,11 @@ body {
     position: absolute;
 }
 
-.card3 #card-front {
+.card3 .card-front {
     transition: transform 0.25s 0.25s;
 }
 
-.card3 #card-back {
+.card3 .card-back {
     transition: transform 0.25s;
     height: 250px;
     background-color: #ffe0eb;
@@ -170,12 +170,12 @@ body {
     justify-content: center;
 }
 
-.card3:hover #card-front {
+.card3:hover .card-front {
     transform: scaleX(0);
     transition: transform 0.25s;
 }
 
-.card3:hover #card-back{
+.card3:hover .card-back{
     transform: scaleX(1);
     transition: transform 0.25s 0.25s;
 }

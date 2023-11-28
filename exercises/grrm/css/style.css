@@ -460,7 +460,10 @@ body {
     #nav {
         flex-wrap: wrap;
     }
-
+    #nav a {
+        border-bottom: 2px solid #848484;
+        flex: 130px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -504,11 +507,13 @@ body {
         flex-wrap: wrap;
     }
 
+    #banner-container,
     #card-1,
     #card-2,
     #card-3,
-    #banner-container,
-    #aside {
+    #aside,
+    #main {
+        background-color: transparent;
         margin: 0px;
         padding: 0px;
     }

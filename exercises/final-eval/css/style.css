@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Great+Vibes&family=Kavivanar&family=Open+Sans&family=Roboto&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -20,12 +22,14 @@ body {
 
 #text1,
 #text3 {
-    font-size: 30px
+    font-size: 30px;
+    font-family: 'Great Vibes', cursive;
 }
 
 #text2 {
     font-size: 50px;
     margin: 0px;
+    font-family: 'Charm', cursive;
 }
 
 #teams {
@@ -41,6 +45,7 @@ body {
 
 .team p {
     font-size: 20px;
+    font-family: 'Kavivanar', cursive;
 }
 
 #patriots p {

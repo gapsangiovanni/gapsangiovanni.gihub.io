@@ -5,11 +5,11 @@
 body {
     background: linear-gradient(
         to bottom right,
-        #cdcdcd,
-        #9c8affbd,
+        #ffffff,
+        #ffb58abd,
         #c289ffaf,
-        #9c8affbd,
-        #cdcdcd
+        #ff8ac1bd,
+        #ffffff
     );
     margin: 0px;
     min-height: 100vh;
@@ -42,11 +42,12 @@ body {
 
 #content {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 8%;
+    grid-template-columns: 1fr 1fr 450px 1fr 1fr;
     grid-template-areas:
-        "image1 text1 ."
-        ". text2 image2"
-        ". text3 .";
+        ". image1 text1 . ."
+        ". . text2 . ."
+        ". . text3 image2 .";
 }
 
 .image1 {
@@ -72,6 +73,7 @@ body {
 div.image1 img {
     width: 300px;
     border-radius: 30px 8px;
+    margin-right: 50px;
 }
 
 #first-part,
@@ -79,6 +81,7 @@ div.image1 img {
 .paragraph2,
 #part3 {
     align-items: center;
+    text-align: center;
 }
 
 span.image2 img {
@@ -110,5 +113,29 @@ span.image2 img {
     #nav-bar a {
         font-size: 1.35rem;
         padding: 5px;
+    }
+
+    div.image1 img {
+        width: 200px;
+        border-radius: 20px 4px;
+    }
+    
+    span.image2 img {
+        width: 150px;
+        border-radius: 20px 20px;
+        margin-left: 0%;
+    }
+
+    #content {
+        grid-template-columns: 1fr 90% 1fr;
+        max-width: 700px;
+        justify-items: center;
+        margin: 8% auto;
+        grid-template-areas:
+            ". image1 ."
+            ". text1 ."
+            ". text2 ."
+            ". image2 ."
+            ". text3 .";
     }
 }

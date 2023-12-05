@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+
+#column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        ". content ."
+    ;
+}
+
+#content {
+    grid-area: content;
+    text-align: center;
+}
+
+#text1,
+#text3 {
+    font-size: 30px
+}
+
+#text2 {
+    font-size: 50px;
+    margin: 0px;
+}
+
+#teams {
+    display: flex;
+    align-items: center;
+}
+
+.team {
+    width: 240px;
+    height: 380px;
+    text-align: center;
+}
+
+.team p {
+    font-size: 20px;
+}
+
+#patriots p {
+    color: #10084e;
+}
+
+#falcons p {
+    color: #8b0e0e;
+}
+
+#image1,
+#image2 {
+    width: 240px;
+    height: 300px;
+    padding: 20px;
+}
+
+#image1 {
+    background: radial-gradient(#6e1212, #10084e);
+}
+
+#image2 {
+    background: radial-gradient(#8b0e0e, #000000);
+}
+
+#image1 img {
+    width: 100%;
+    margin-top: 50%;
+}
+
+#image2 img {
+    width: 65%;
+    margin-top: 50%;
+}
+
+#vs {
+    font-size: 70px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    background-color: #149d96;
+    padding: 25px;
+    transition:
+    background-color 0.5s;
+}
+#button2:hover {
+    background-color: #6e1212;
+}
+#button1:hover {
+    background-color: #10084e;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+#button1 {
+    margin-right: 30%;
+}

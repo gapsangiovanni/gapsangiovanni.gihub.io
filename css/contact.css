@@ -31,6 +31,34 @@ body {
     display: block;
 }
 
+#contact {
+    display: grid;
+    margin-top: 8%;
+    grid-template-columns: 1fr 450px 1fr;
+    grid-template-areas:
+        ". number ."
+        ". email ."
+        ". instagram .";
+}
+
+#number {
+    display: flex;
+    justify-content: center;
+    grid-area: number;
+}
+
+#email {
+    display: flex;
+    justify-content: center;
+    grid-area: email;
+}
+
+#instagram {
+    display: flex;
+    justify-content: center;
+    grid-area: instagram;
+}
+
 @media screen and (max-width: 1000px) {
     #first-three, #nav-bar {
         display: flex;

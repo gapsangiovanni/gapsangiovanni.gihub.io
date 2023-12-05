@@ -50,10 +50,12 @@ body {
 
 #patriots p {
     color: #10084e;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #falcons p {
     color: #8b0e0e;
+    font-family: 'Roboto', sans-serif;
 }
 
 #image1,

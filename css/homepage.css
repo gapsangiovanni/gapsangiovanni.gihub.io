@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fenix&family=Old+Standard+TT&family=Trykker&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -50,6 +52,7 @@ body {
     text-decoration: none;
     color: #C7B2FA;
     font-size: 2vw;
+    font-family: 'Fenix', serif;
     display: block;
     padding: 20px;
     transition:
@@ -76,24 +79,27 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 #hero h1 {
     font-size: 10vw;
+    font-family: 'Old Standard TT', serif;
     margin-bottom: 5vh;
-    margin-right: 5vw;
+    margin-left: 5vw;
     color: #cfbef4;
 }
 
 #hero h3 {
     font-size: 5vw;
-    margin: 0px 5vw 0px 0px;
+    font-family: 'Old Standard TT', serif;
+    margin: 0px 0vw 0px 5.5vw;
     color: #cfbef4;
 }
 
 #hero a {
     font-size: 3vw;
+    font-family: 'Old Standard TT', serif;
     font-weight: bold;
     display: inline-block;
     background-color: #ffffff67;
@@ -101,7 +107,7 @@ body {
     color: #3a2175;
     text-decoration: none;
     padding: 17px;
-    margin: 5vh 5vw 10vh 0px;
+    margin: 5vh 5vw 10vh 5.5vw;
     transition:
         background-color 0.5s,
         box-shadow 0.5s;
@@ -124,6 +130,7 @@ body {
 #between h2 {
     color: #C7B2FA;
     font-size: 100px;
+    font-family: 'Old Standard TT', serif;
     margin-top: 150px;
 }
 /* Between Homepage Ends */
@@ -151,8 +158,8 @@ body {
 /* About Page Starts */
 #content {
     display: grid;
-    margin-top: 8%;
-    grid-template-columns: 1fr 1fr 450px 1fr 1fr;
+    margin-top: 4%;
+    grid-template-columns: 1fr 1fr 40vw 1fr 1fr;
     grid-template-areas:
         ". image1 text1 . ."
         ". . text2 . ."
@@ -180,7 +187,7 @@ body {
 }
 
 div.image1 img {
-    width: 300px;
+    width: 230px;
     border-radius: 30px 8px;
     margin-right: 50px;
 }
@@ -194,12 +201,60 @@ div.image1 img {
     color: white;
 }
 
+.paragraph1 h2 {
+    font-family: 'Old Standard TT', serif;
+    font-size: 40px;
+}
+
+.paragraph1 p {
+    font-family: 'Trykker', serif;
+}
+
+.paragraph2 p {
+    font-family: 'Trykker', serif;
+}
+
+#part3 {
+    font-family: 'Trykker', serif;
+}
+
 span.image2 img {
     width: 150px;
     border-radius: 40px 40px;
     margin-left: 20%;
 }
 /* About Page Ends */
+
+/* Skills Section About Page Starts */
+#m-skills {
+    font-size: 85px;
+    font-family: 'Old Standard TT', serif;
+    color: #C7B2FA;
+}
+
+#skills-content {
+    display: flex;
+}
+
+.design {
+    width: 300px;
+}
+
+.design h2 {
+    font-family: 'Old Standard TT', serif;
+    color: #C7B2FA;
+}
+
+.web-design {
+    width: 300px;
+}
+
+.web-design h2 {
+    font-family: 'Old Standard TT', serif;
+    color: #C7B2FA;
+}
+
+/* Skills Section About Page Ends */
 
 /* Contact Page Starts */
 #contact {

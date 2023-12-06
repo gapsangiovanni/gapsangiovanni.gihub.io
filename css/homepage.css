@@ -22,6 +22,12 @@ body {
 }
 
 /* Navbar Starts */
+#burger-nav {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+}
+
 #first-three {
     display: flex;
     gap: 15px;
@@ -222,6 +228,7 @@ span.image2 img {
 
 #email {
     display: flex;
+    align-items: center;
     justify-content: center;
     grid-area: email;
 }
@@ -241,6 +248,7 @@ span.image2 img {
 
 #instagram {
     display: flex;
+    align-items: center;
     justify-content: center;
     grid-area: instagram;
 }
@@ -260,24 +268,41 @@ span.image2 img {
 
 @media screen and (max-width: 1000px) {
     /* Navbar Starts */
-    #first-three, #nav-bar {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    #burger-nav {
+        visibility: visible;
+        opacity: 1;
+        margin-left: auto;
+        position: unset;
     }
 
-    #first-three {
+    #burger-nav img {
+        width: 70px;
+    }
+
+    #first-three,
+    #last {
+        display: none;
+    }
+
+    #last.mob {
+        display: block;
+    }
+
+    #first-three.mob,
+    #nav-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .mob #first-three {
         gap: 0px;
     }
 
     #nav-bar {
-        text-align: center;
+        margin-left: auto;
     }
 
-    #nav-bar #last {
-        margin-left: 0px;
-        text-align: center;
-    }
 
     #nav-bar a {
         font-size: 1.35rem;

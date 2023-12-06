@@ -60,7 +60,7 @@ body {
     height: 100%;
 }
 
-#nav-bar #last {
+#last {
     margin-left: auto;
     display: block;
 }
@@ -273,10 +273,12 @@ span.image2 img {
         opacity: 1;
         margin-left: auto;
         position: unset;
+        margin-bottom: 15px;
     }
 
     #burger-nav img {
-        width: 70px;
+        width: 50px;
+        height: 35px;
     }
 
     #first-three,
@@ -300,9 +302,12 @@ span.image2 img {
     }
 
     #nav-bar {
-        margin-left: auto;
+        padding: 25px 25px 5px 0px;
     }
 
+    #last {
+        margin: 15px 0px 15px 0px;
+    }
 
     #nav-bar a {
         font-size: 1.35rem;
@@ -325,6 +330,7 @@ span.image2 img {
     div.image1 img {
         width: 200px;
         border-radius: 20px 4px;
+        margin-right: 0%;
     }
     
     span.image2 img {

@@ -3,16 +3,25 @@
 }
 
 body {
-    background-image: url("../images/Matte_Painting.png");
+    /* background-image: url("../images/Portrait.png");
     background-size: cover;
     background-attachment: fixed;
     background-size: cover;
     background-attachment: fixed;
     font-family: sans-serif;
     margin: 0px;
-    height: 50vh;
+    height: 50vh; */
+    background: linear-gradient(
+        to bottom left,
+        #453b01,
+        #000000,
+        #000000
+    );
+    margin: 0px;
+    min-height: 100vh;
 }
 
+/* Navbar Starts */
 #first-three {
     display: flex;
     gap: 15px;
@@ -20,7 +29,13 @@ body {
 }
 
 #nav-bar {
-    background-color: #746694;
+    /* background-color: #746694; */
+    background: linear-gradient(
+        to bottom left,
+        #453b01,
+        #000000,
+        #000000
+    );
     padding: 0px 20px;
     display: flex;
 }
@@ -43,10 +58,12 @@ body {
     margin-left: auto;
     display: block;
 }
+/* Navbar Ends */
 
+/* Hero Homepage Starts */
 #hero {
-    background: linear-gradient(45deg, #ffffff55, #ffffff55),
-    url(../images/home-1.jpg);
+    background: linear-gradient(45deg, #00000055, #00000055),
+    url(../images/Portrait.png);
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -60,21 +77,22 @@ body {
     font-size: 10vw;
     margin-bottom: 5vh;
     margin-right: 5vw;
-    color: #3E2F61;
+    color: #cfbef4;
 }
 
 #hero h3 {
     font-size: 5vw;
     margin: 0px 5vw 0px 0px;
-    color: #3E2F61;
+    color: #cfbef4;
 }
 
 #hero a {
     font-size: 3vw;
+    font-weight: bold;
     display: inline-block;
-    background-color: #746694;
+    background-color: #ffffff67;
     border-radius: 10px;
-    color: #C7B2FA;
+    color: #3a2175;
     text-decoration: none;
     padding: 17px;
     margin: 5vh 5vw 10vh 0px;
@@ -86,7 +104,9 @@ body {
     background-color: #3E2F61;
     box-shadow: inset 3px 5px 15px #000000;
 }
+/* Hero Homepage Ends */
 
+/* Between Homepage Starts */
 #between {
     height: 300px;
     display: flex;
@@ -100,7 +120,9 @@ body {
     font-size: 100px;
     margin-top: 150px;
 }
+/* Between Homepage Ends */
 
+/* Gallery Homepage Starts */
 #layout {
     max-width: 800px;
     margin: 48px auto;
@@ -109,8 +131,8 @@ body {
 
 #gallery-page {
     columns: 3 auto;
-    column-gap: 27px;
-    padding: 30px 30px 0px 30px;
+    column-gap: 47px;
+    padding: 50px 50px 0px 30px;
     background-color: #7354bb4b;
 }
 
@@ -118,8 +140,10 @@ body {
     width: 100%;
     margin-bottom: 24px;
 }
+/* Gallery Homepage Ends */
 
 @media screen and (max-width: 1000px) {
+    /* Navbar Starts */
     #first-three, #nav-bar {
         display: flex;
         flex-direction: column;
@@ -143,7 +167,9 @@ body {
         font-size: 1.35rem;
         padding: 5px;
     }
+    /* Navbar Ends */
 
+    /* Between Homepage Starts */
     #between {
         height: 200px;
     }
@@ -152,4 +178,6 @@ body {
         font-size: 50px;
         margin-top: 110px;
     }
+    /* Between Homepage Ends */
+
 }

@@ -13,8 +13,8 @@ body {
     height: 50vh; */
     background: linear-gradient(
         to bottom left,
-        #453b01,
-        #000000,
+        #281553,
+        #0e0623,
         #000000
     );
     margin: 0px;
@@ -32,8 +32,8 @@ body {
     /* background-color: #746694; */
     background: linear-gradient(
         to bottom left,
-        #453b01,
-        #000000,
+        #281553,
+        #0e0623,
         #000000
     );
     padding: 0px 20px;
@@ -142,6 +142,122 @@ body {
 }
 /* Gallery Homepage Ends */
 
+/* About Page Starts */
+#content {
+    display: grid;
+    margin-top: 8%;
+    grid-template-columns: 1fr 1fr 450px 1fr 1fr;
+    grid-template-areas:
+        ". image1 text1 . ."
+        ". . text2 . ."
+        ". . text3 image2 .";
+}
+
+.image1 {
+    grid-area: image1;
+}
+
+.paragraph1 {
+    grid-area: text1;
+}
+
+.paragraph2 {
+    grid-area: text2;
+}
+
+.image2 {
+    grid-area: image2;
+}
+
+#part3 {
+    grid-area: text3;
+}
+
+div.image1 img {
+    width: 300px;
+    border-radius: 30px 8px;
+    margin-right: 50px;
+}
+
+#first-part,
+.paragraph1,
+.paragraph2,
+#part3 {
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+span.image2 img {
+    width: 150px;
+    border-radius: 40px 40px;
+    margin-left: 20%;
+}
+/* About Page Ends */
+
+/* Contact Page Starts */
+#contact {
+    display: grid;
+    margin-top: 8%;
+    grid-template-columns: 1fr 450px 1fr;
+    grid-template-areas:
+        ". number ."
+        ". email ."
+        ". instagram .";
+}
+
+#number {
+    display: flex;
+    justify-content: center;
+    grid-area: number;
+}
+
+#pn1 {
+    color: #C7B2FA;
+}
+
+#pn2 {
+    color: white;
+}
+
+#email {
+    display: flex;
+    justify-content: center;
+    grid-area: email;
+}
+
+#email1 {
+    color: #C7B2FA;
+}
+
+#email2 {
+    color: white;
+}
+
+#email3 {
+    text-decoration: none;
+    color: #C7B2FA;
+}
+
+#instagram {
+    display: flex;
+    justify-content: center;
+    grid-area: instagram;
+}
+
+#ig1 {
+    color: #C7B2FA;
+}
+
+#ig2 {
+    color: white;
+}
+
+#ig3 {
+    color: #C7B2FA;
+}
+/* Contact Page Ends */
+
 @media screen and (max-width: 1000px) {
     /* Navbar Starts */
     #first-three, #nav-bar {
@@ -179,5 +295,38 @@ body {
         margin-top: 110px;
     }
     /* Between Homepage Ends */
+
+    /* About Page Starts */
+    div.image1 img {
+        width: 200px;
+        border-radius: 20px 4px;
+    }
+    
+    span.image2 img {
+        width: 150px;
+        border-radius: 20px 20px;
+        margin-left: 0%;
+    }
+
+    #content {
+        grid-template-columns: 1fr 90% 1fr;
+        max-width: 700px;
+        justify-items: center;
+        margin: 8% auto;
+        grid-template-areas:
+            ". image1 ."
+            ". text1 ."
+            ". text2 ."
+            ". image2 ."
+            ". text3 .";
+    }
+    /* About Page Ends */
+
+    
+
+    /* Contact Page Starts */
+
+
+    /* Contact Page Ends */
 
 }

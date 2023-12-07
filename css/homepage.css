@@ -245,12 +245,32 @@ span.image2 img {
     color: #C7B2FA;
 }
 
+.desing p {
+    font-family: 'Trykker', serif;
+    color: #C7B2FA;
+}
+
+#ai,
+#psd,
+#lr {
+    width: 30%;
+}
+
+#xd {
+    width: 35%;
+}
+
 .web-design {
     width: 300px;
 }
 
 .web-design h2 {
     font-family: 'Old Standard TT', serif;
+    color: #C7B2FA;
+}
+
+.web-design p {
+    font-family: 'Trykker', serif;
     color: #C7B2FA;
 }
 
@@ -269,6 +289,7 @@ span.image2 img {
 
 #number {
     display: flex;
+    align-items: center;
     justify-content: center;
     grid-area: number;
 }
@@ -279,6 +300,11 @@ span.image2 img {
 
 #pn2 {
     color: white;
+}
+
+#pn3 {
+    text-decoration: none;
+    color: #C7B2FA;
 }
 
 #email {

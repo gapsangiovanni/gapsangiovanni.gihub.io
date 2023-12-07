@@ -443,6 +443,16 @@ span.image2 img {
     }
     /* Navbar Ends */
 
+    /* Hero Homepage Starts */
+    #hero h3 {
+        font-size: 7vw;
+    }
+
+    #hero a {
+        font-size: 5vw;
+    }    
+    /* Hero Homepage Ends */
+
     /* Between Homepage Starts */
     #between {
         height: 200px;

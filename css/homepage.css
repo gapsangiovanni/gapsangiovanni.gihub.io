@@ -226,13 +226,25 @@ span.image2 img {
 /* About Page Ends */
 
 /* Skills Section About Page Starts */
+#skills {
+    display: grid;
+    margin-top: 4%;
+    grid-template-columns: 1fr 1fr 30vw 1fr 1fr;
+    grid-template-areas:
+        ". . sk-text . ."
+        ". . sk-content . .";
+}
+
 #m-skills {
+    grid-area: sk-text;
     font-size: 85px;
     font-family: 'Old Standard TT', serif;
     color: #C7B2FA;
+    text-align: center;
 }
 
 #skills-content {
+    grid-area: sk-content;
     display: flex;
 }
 
@@ -243,21 +255,34 @@ span.image2 img {
 .design h2 {
     font-family: 'Old Standard TT', serif;
     color: #C7B2FA;
+    text-align: center;
 }
 
-.desing p {
+.design p {
     font-family: 'Trykker', serif;
     color: #C7B2FA;
+}
+
+#design-icons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#design-icons div {
+    width: 40%;
+    margin-right: 20px;
+    text-align: center;
 }
 
 #ai,
 #psd,
 #lr {
-    width: 30%;
+    width: 83%;
+    margin: 12px;
 }
 
 #xd {
-    width: 35%;
+    width: 100%;
 }
 
 .web-design {
@@ -267,11 +292,36 @@ span.image2 img {
 .web-design h2 {
     font-family: 'Old Standard TT', serif;
     color: #C7B2FA;
+    text-align: center;
 }
 
 .web-design p {
     font-family: 'Trykker', serif;
     color: #C7B2FA;
+}
+
+#web-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#web-icons div {
+    width: 40%;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#html {
+    width: 100%;
+}
+
+#css {
+    width: 92%;
+}
+
+#wp {
+    width: 105%;
 }
 
 /* Skills Section About Page Ends */
@@ -295,14 +345,17 @@ span.image2 img {
 }
 
 #pn1 {
+    font-family: 'Old Standard TT', serif;
     color: #C7B2FA;
 }
 
 #pn2 {
+    font-family: 'Trykker', serif;
     color: white;
 }
 
 #pn3 {
+    font-family: 'Fenix', serif;
     text-decoration: none;
     color: #C7B2FA;
 }
@@ -315,14 +368,17 @@ span.image2 img {
 }
 
 #email1 {
+    font-family: 'Old Standard TT', serif;
     color: #C7B2FA;
 }
 
 #email2 {
+    font-family: 'Trykker', serif;
     color: white;
 }
 
 #email3 {
+    font-family: 'Fenix', serif;
     text-decoration: none;
     color: #C7B2FA;
 }
@@ -335,15 +391,19 @@ span.image2 img {
 }
 
 #ig1 {
+    font-family: 'Old Standard TT', serif;
     color: #C7B2FA;
 }
 
 #ig2 {
+    font-family: 'Trykker', serif;
     color: white;
 }
 
 #ig3 {
+    font-family: 'Fenix', serif;
     color: #C7B2FA;
+    text-decoration: none;
 }
 /* Contact Page Ends */
 
@@ -434,7 +494,42 @@ span.image2 img {
     }
     /* About Page Ends */
 
-    
+    /* Skills Section About Page Starts */
+#skills {
+    grid-template-columns: 1fr 1fr 75vw 1fr 1fr;
+}
+
+.design h2 {
+    font-family: 'Old Standard TT', serif;
+    color: #C7B2FA;
+    text-align: center;
+}
+
+.design p {
+    font-family: 'Trykker', serif;
+    color: #C7B2FA;
+}
+
+#design-icons div p {
+    margin-top: 0px;
+}
+
+.web-design h2 {
+    font-family: 'Old Standard TT', serif;
+    color: #C7B2FA;
+    text-align: center;
+}
+
+.web-design p {
+    font-family: 'Trykker', serif;
+    color: #C7B2FA;
+}
+
+#web-icons div p {
+    margin-top: 10px;
+}
+
+/* Skills Section About Page Ends */
 
     /* Contact Page Starts */
 

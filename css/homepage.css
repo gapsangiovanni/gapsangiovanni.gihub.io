@@ -467,6 +467,14 @@ span.image2 img {
     }
     /* Between Homepage Ends */
 
+    /* Gallery Homepage Starts */
+    #gallery-page {
+        columns: 2 auto;
+        column-gap: 27px;
+        padding: 70px 50px 30px 50px;
+    }
+    /* Gallery Homepage Ends */
+
     /* About Page Starts */
     div.image1 img {
         width: 200px;
@@ -495,41 +503,41 @@ span.image2 img {
     /* About Page Ends */
 
     /* Skills Section About Page Starts */
-#skills {
-    grid-template-columns: 1fr 1fr 75vw 1fr 1fr;
-}
+    #skills {
+        grid-template-columns: 1fr 1fr 75vw 1fr 1fr;
+    }
 
-.design h2 {
-    font-family: 'Old Standard TT', serif;
-    color: #C7B2FA;
-    text-align: center;
-}
+    .design h2 {
+        font-family: 'Old Standard TT', serif;
+        color: #C7B2FA;
+        text-align: center;
+    }
 
-.design p {
-    font-family: 'Trykker', serif;
-    color: #C7B2FA;
-}
+    .design p {
+        font-family: 'Trykker', serif;
+        color: #C7B2FA;
+    }
 
-#design-icons div p {
-    margin-top: 0px;
-}
+    #design-icons div p {
+        margin-top: 0px;
+    }
 
-.web-design h2 {
-    font-family: 'Old Standard TT', serif;
-    color: #C7B2FA;
-    text-align: center;
-}
+    .web-design h2 {
+        font-family: 'Old Standard TT', serif;
+        color: #C7B2FA;
+        text-align: center;
+    }
 
-.web-design p {
-    font-family: 'Trykker', serif;
-    color: #C7B2FA;
-}
+    .web-design p {
+        font-family: 'Trykker', serif;
+        color: #C7B2FA;
+    }
 
-#web-icons div p {
-    margin-top: 10px;
-}
+    #web-icons div p {
+        margin-top: 10px;
+    }
 
-/* Skills Section About Page Ends */
+    /* Skills Section About Page Ends */
 
     /* Contact Page Starts */
 

@@ -110,10 +110,12 @@ body {
     margin: 5vh 5vw 10vh 5.5vw;
     transition:
         background-color 0.5s,
+        color 0.5s,
         box-shadow 0.5s;
 }
 #hero a:hover {
-    background-color: #3E2F61;
+    background-color: #3a217579;
+    color: #cfbef4;
     box-shadow: inset 3px 5px 15px #000000;
 }
 /* Hero Homepage Ends */

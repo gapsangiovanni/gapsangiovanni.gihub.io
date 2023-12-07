@@ -543,7 +543,34 @@ span.image2 img {
 
     /* Contact Page Starts */
 
+    #number,
+    #email,
+    #instagram {
+        flex-direction: column;
+    }
 
+    #number,
+    #email {
+        margin-bottom: 50px;
+    }
+
+    #pn1,
+    #email1,
+    #ig1 {
+        margin: 10px;
+    }
+
+    #pn2,
+    #email2,
+    #ig2 {
+        margin-bottom: 20px;
+    }
+
+    #pn3,
+    #email3,
+    #ig3 {
+        margin: 10px;
+    }
     /* Contact Page Ends */
 
 }
@@ -552,7 +579,7 @@ span.image2 img {
     #m-skills {
         font-size: 3.438rem;
     }
-    
+
     #design-icons,
     #web-icons {
         align-items: center;

@@ -566,6 +566,7 @@ span.image2 img {
     #email2,
     #ig2 {
         margin-bottom: 20px;
+        font-size: 1.3rem;
     }
 
     #pn3,
@@ -578,6 +579,10 @@ span.image2 img {
 }
 
 @media screen and (max-width: 530px) {
+    .paragraph1 h2 {
+        font-size: 2.438rem;
+    }
+
     #m-skills {
         font-size: 3.438rem;
     }

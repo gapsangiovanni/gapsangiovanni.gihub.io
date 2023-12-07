@@ -231,7 +231,7 @@ span.image2 img {
 #skills {
     display: grid;
     margin-top: 4%;
-    grid-template-columns: 1fr 1fr 30vw 1fr 1fr;
+    grid-template-columns: 1fr 1fr 35vw 1fr 1fr;
     grid-template-areas:
         ". . sk-text . ."
         ". . sk-content . .";
@@ -251,12 +251,14 @@ span.image2 img {
 }
 
 .design {
-    width: 300px;
+    width: 400px;
 }
 
-.design h2 {
+.design h2,
+.web-design h2 {
     font-family: 'Old Standard TT', serif;
     color: #C7B2FA;
+    font-size: 2.5rem;
     text-align: center;
 }
 
@@ -288,13 +290,7 @@ span.image2 img {
 }
 
 .web-design {
-    width: 300px;
-}
-
-.web-design h2 {
-    font-family: 'Old Standard TT', serif;
-    color: #C7B2FA;
-    text-align: center;
+    width: 400px;
 }
 
 .web-design p {

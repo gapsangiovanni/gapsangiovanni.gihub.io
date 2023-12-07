@@ -509,6 +509,10 @@ span.image2 img {
         grid-template-columns: 1fr 1fr 75vw 1fr 1fr;
     }
 
+    #m-skills {
+        font-size: 3.438rem;
+    }
+
     .design h2 {
         font-family: 'Old Standard TT', serif;
         color: #C7B2FA;

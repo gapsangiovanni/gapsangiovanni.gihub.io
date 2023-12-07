@@ -444,12 +444,17 @@ span.image2 img {
     /* Navbar Ends */
 
     /* Hero Homepage Starts */
+    #hero h1 {
+        margin-bottom: 1vh;
+    }
+
     #hero h3 {
         font-size: 7vw;
     }
 
     #hero a {
         font-size: 5vw;
+        margin: 1vh 5vw 10vh 5.5vw;
     }    
     /* Hero Homepage Ends */
 

@@ -330,7 +330,7 @@ span.image2 img {
 #contact {
     display: grid;
     margin-top: 8%;
-    grid-template-columns: 1fr 450px 1fr;
+    grid-template-columns: 1fr 70% 1fr;
     grid-template-areas:
         ". number ."
         ". email ."
@@ -344,20 +344,39 @@ span.image2 img {
     grid-area: number;
 }
 
-#pn1 {
+#pn1,
+#email1,
+#ig1 {
     font-family: 'Old Standard TT', serif;
+    font-size: 1.875rem;
     color: #C7B2FA;
 }
 
-#pn2 {
+#pn2,
+#email2,
+#ig2 {
     font-family: 'Trykker', serif;
+    font-size: 1.5rem;
     color: white;
+    margin: 0px 16px;
 }
 
-#pn3 {
+.button {
     font-family: 'Fenix', serif;
+    font-size: 1.65rem;
     text-decoration: none;
     color: #C7B2FA;
+    background-color: #281553;
+    padding: 10px 20px;
+    border-radius: 15px;
+    transition:
+        color 0.5s,
+        background-color 0.5s
+    ;
+}
+.button:hover {
+    color: #281553;
+    background-color: #C7B2FA;
 }
 
 #email {
@@ -367,43 +386,11 @@ span.image2 img {
     grid-area: email;
 }
 
-#email1 {
-    font-family: 'Old Standard TT', serif;
-    color: #C7B2FA;
-}
-
-#email2 {
-    font-family: 'Trykker', serif;
-    color: white;
-}
-
-#email3 {
-    font-family: 'Fenix', serif;
-    text-decoration: none;
-    color: #C7B2FA;
-}
-
 #instagram {
     display: flex;
     align-items: center;
     justify-content: center;
     grid-area: instagram;
-}
-
-#ig1 {
-    font-family: 'Old Standard TT', serif;
-    color: #C7B2FA;
-}
-
-#ig2 {
-    font-family: 'Trykker', serif;
-    color: white;
-}
-
-#ig3 {
-    font-family: 'Fenix', serif;
-    color: #C7B2FA;
-    text-decoration: none;
 }
 /* Contact Page Ends */
 
@@ -462,7 +449,7 @@ span.image2 img {
     }
 
     #between h2 {
-        font-size: 50px;
+        font-size: 40px;
         margin-top: 110px;
     }
     /* Between Homepage Ends */
@@ -470,8 +457,8 @@ span.image2 img {
     /* Gallery Homepage Starts */
     #gallery-page {
         columns: 2 auto;
-        column-gap: 27px;
-        padding: 70px 50px 30px 50px;
+        column-gap: 17px;
+        padding: 70px 20px 30px 20px;
     }
     /* Gallery Homepage Ends */
 

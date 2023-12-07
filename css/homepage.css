@@ -509,10 +509,6 @@ span.image2 img {
         grid-template-columns: 1fr 1fr 75vw 1fr 1fr;
     }
 
-    #m-skills {
-        font-size: 3.438rem;
-    }
-
     .design h2 {
         font-family: 'Old Standard TT', serif;
         color: #C7B2FA;
@@ -550,4 +546,21 @@ span.image2 img {
 
     /* Contact Page Ends */
 
+}
+
+@media screen and (max-width: 530px) {
+    #m-skills {
+        font-size: 3.438rem;
+    }
+    
+    #design-icons,
+    #web-icons {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #design-icons div,
+    #web-icons div {
+        margin-right: 0px;
+    }
 }

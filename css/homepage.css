@@ -270,11 +270,12 @@ span.image2 img {
 #design-icons {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
 #design-icons div {
     width: 40%;
-    margin-right: 20px;
     text-align: center;
 }
 
@@ -302,11 +303,11 @@ span.image2 img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 25px;
 }
 
 #web-icons div {
     width: 40%;
-    margin-right: 20px;
     text-align: center;
 }
 

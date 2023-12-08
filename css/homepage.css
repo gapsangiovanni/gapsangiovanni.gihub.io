@@ -231,7 +231,7 @@ span.image2 img {
 #skills {
     display: grid;
     margin-top: 4%;
-    grid-template-columns: 1fr 1fr 35vw 1fr 1fr;
+    grid-template-columns: 1fr 1fr 40vw 1fr 1fr;
     grid-template-areas:
         ". . sk-text . ."
         ". . sk-content . .";
